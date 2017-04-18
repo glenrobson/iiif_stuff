@@ -1,0 +1,1603 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "http://dams.llgc.org.uk/iiif/newspaper/issue/3082288/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "gwladgarwr (1858-09-11)",
+    "navDate": "1858-09-11T00:00:00Z",
+    "metadata": [
+        {
+            "label": [
+                {
+                    "@value": "Publisher",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Cyhoeddwr",
+                    "@language": "cy-GB"
+                }
+            ],
+            "value": "Abraham Mason"
+        },
+        {
+            "label": "Place of Publication",
+            "value": "Aberdare"
+        },
+        {
+            "label": [
+                {
+                    "@value": "Frequency",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Amlder",
+                    "@language": "cy-GB"
+                }
+            ],
+            "value": [
+                {
+                    "@value": "Weekly",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Wythnosol",
+                    "@language": "cy-GB"
+                }
+            ]
+        },
+        {
+            "label": "Language",
+            "value": "wel"
+        },
+        {
+            "label": "Subject",
+            "value": [
+                "Literature Wales Newspapers",
+                "Employee rights Wales Newspapers",
+                "Wales Newspapers 19th century"
+            ]
+        },
+        {
+            "label": [
+                {
+                    "@value": "Repository",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Ystorfa",
+                    "@language": "cy-GB"
+                }
+            ],
+            "value": [
+                {
+                    "@value": "This content has been digitised by The National Library of Wales",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Digidwyd y cynnwys hwn gan Lyfrgell Gendlaethol Cymru",
+                    "@language": "cy-GB"
+                }
+            ]
+        }
+    ],
+    "within": "http://dams.llgc.org.uk/iiif/newspapers/3082278.json",
+    "logo": {
+        "@id": "http://dams.llgc.org.uk/iiif/2.0/image/logo/full/400,/0/default.jpg",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "http://dams.llgc.org.uk/iiif/2.0/image/logo",
+            "profile": "http://iiif.io/api/image/2/level1.json"
+        }
+    },
+    "seeAlso": {
+        "@id": "http://hdl.handle.net/10107/3082288",
+        "format": "application/rdf+xml",
+        "profile": "http://www.europeana.eu/schemas/edm/"
+    },
+    "sequences": [{
+        "@type": "sc:Sequence",
+        "canvases": [
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082289",
+                "@type": "sc:Canvas",
+                "label": "[1]",
+                "height": 5826,
+                "width": 3874,
+                "images": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/3082289.json",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://dams.llgc.org.uk/iiif/2.0/3082289/image/full/512,/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "http://dams.llgc.org.uk/iiif/2.0/image/3082289",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "height": 5826,
+                            "width": 3874,
+                            "tiles": [{
+                                "width": 256,
+                                "scaleFactors": [
+                                    1,
+                                    2,
+                                    4,
+                                    8,
+                                    16,
+                                    32
+                                ]
+                            }]
+                        },
+                        "height": 5826,
+                        "width": 3874
+                    },
+                    "on": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082289"
+                }],
+                "otherContent": [
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082289/annotation/list/ART1.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "BRAD Y SEPOYS.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle1.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082289/annotation/list/ART2.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "[No title]",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle2.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    }
+                ]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082290",
+                "@type": "sc:Canvas",
+                "label": "[2]",
+                "height": 5826,
+                "width": 3874,
+                "images": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/3082290.json",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://dams.llgc.org.uk/iiif/2.0/3082290/image/full/512,/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "http://dams.llgc.org.uk/iiif/2.0/image/3082290",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "height": 5826,
+                            "width": 3874,
+                            "tiles": [{
+                                "width": 256,
+                                "scaleFactors": [
+                                    1,
+                                    2,
+                                    4,
+                                    8,
+                                    16,
+                                    32
+                                ]
+                            }]
+                        },
+                        "height": 5826,
+                        "width": 3874
+                    },
+                    "on": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082290"
+                }],
+                "otherContent": [
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082290/annotation/list/ART3.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "BYCHANDER DYN.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle3.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082290/annotation/list/ART4.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "TRAETHAWD AR Y CWRW BACH,'",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle4.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082290/annotation/list/ART5.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "WALTER SAYAGE LANDOR.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle5.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    }
+                ]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082291",
+                "@type": "sc:Canvas",
+                "label": "[3]",
+                "height": 5826,
+                "width": 3874,
+                "images": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/3082291.json",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://dams.llgc.org.uk/iiif/2.0/3082291/image/full/512,/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "http://dams.llgc.org.uk/iiif/2.0/image/3082291",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "height": 5826,
+                            "width": 3874,
+                            "tiles": [{
+                                "width": 256,
+                                "scaleFactors": [
+                                    1,
+                                    2,
+                                    4,
+                                    8,
+                                    16,
+                                    32
+                                ]
+                            }]
+                        },
+                        "height": 5826,
+                        "width": 3874
+                    },
+                    "on": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082291"
+                }],
+                "otherContent": [
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082291/annotation/list/ART6.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "WALTER SAYAGE LANDOR.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle5.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082291/annotation/list/ART7.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "OFERGOELEDD Y CYMRY.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle6.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082291/annotation/list/ART8.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "ATEBIAD I OFYNIAD 'AP IOAN,'",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle7.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082291/annotation/list/ART9.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "AT OLYGYDD Y GWLDGARWR.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle8.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082291/annotation/list/ART10.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "AT OLYGYDD Y GWLADGARWR.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle9.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082291/annotation/list/ART11.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "IY FFYNONAU.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle10.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082291/annotation/list/ART12.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "NATURIOLDEB CHWERTHIN.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle11.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082291/annotation/list/ART13.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "AT OLYGYDD Y GWLADGARWR.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle12.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082291/annotation/list/ART14.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "Y DANCHWA DDIWEDDAR YN NGWAITH GLO YSTALYFERA.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle13.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    }
+                ]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082292",
+                "@type": "sc:Canvas",
+                "label": "[4]",
+                "height": 5826,
+                "width": 3874,
+                "images": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/3082292.json",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://dams.llgc.org.uk/iiif/2.0/3082292/image/full/512,/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "http://dams.llgc.org.uk/iiif/2.0/image/3082292",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "height": 5826,
+                            "width": 3874,
+                            "tiles": [{
+                                "width": 256,
+                                "scaleFactors": [
+                                    1,
+                                    2,
+                                    4,
+                                    8,
+                                    16,
+                                    32
+                                ]
+                            }]
+                        },
+                        "height": 5826,
+                        "width": 3874
+                    },
+                    "on": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082292"
+                }],
+                "otherContent": [
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082292/annotation/list/ART15.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "Y DANCHWA DDIWEDDAR YN NGWAITH GLO YSTALYFERA.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle13.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082292/annotation/list/ART16.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "AT EIN DERBYNWYR A'N DOSBARTHWYR.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle14.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082292/annotation/list/ART17.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "AT EIN GOHEBWYR.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle15.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082292/annotation/list/ART18.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "[No title]",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle16.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082292/annotation/list/ART19.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "[No title]",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle17.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082292/annotation/list/ART20.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "[No title]",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle18.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082292/annotation/list/ART21.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "[No title]",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle19.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    }
+                ]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082293",
+                "@type": "sc:Canvas",
+                "label": "[5]",
+                "height": 5826,
+                "width": 3874,
+                "images": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/3082293.json",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://dams.llgc.org.uk/iiif/2.0/3082293/image/full/512,/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "http://dams.llgc.org.uk/iiif/2.0/image/3082293",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "height": 5826,
+                            "width": 3874,
+                            "tiles": [{
+                                "width": 256,
+                                "scaleFactors": [
+                                    1,
+                                    2,
+                                    4,
+                                    8,
+                                    16,
+                                    32
+                                ]
+                            }]
+                        },
+                        "height": 5826,
+                        "width": 3874
+                    },
+                    "on": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082293"
+                }],
+                "otherContent": [
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082293/annotation/list/ART22.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "CYFARFOD USTUSIAID ABERDAR.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle20.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082293/annotation/list/ART23.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "[No title]",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle21.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    }
+                ]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082294",
+                "@type": "sc:Canvas",
+                "label": "[6]",
+                "height": 5826,
+                "width": 3874,
+                "images": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/3082294.json",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://dams.llgc.org.uk/iiif/2.0/3082294/image/full/512,/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "http://dams.llgc.org.uk/iiif/2.0/image/3082294",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "height": 5826,
+                            "width": 3874,
+                            "tiles": [{
+                                "width": 256,
+                                "scaleFactors": [
+                                    1,
+                                    2,
+                                    4,
+                                    8,
+                                    16,
+                                    32
+                                ]
+                            }]
+                        },
+                        "height": 5826,
+                        "width": 3874
+                    },
+                    "on": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082294"
+                }],
+                "otherContent": [
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082294/annotation/list/ART24.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "PENILLION I'R GANWYLL.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle22.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082294/annotation/list/ART25.json",
+                        "@type": "sc:AnnotationList",
+                        "label": ";'AWELON YR ERYRI.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle23.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082294/annotation/list/ART26.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "GWEL GLYNDWR A'I WYR!",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle24.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082294/annotation/list/ART27.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "CANIG DDIRWESTOL.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle25.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082294/annotation/list/ART28.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "[No title]",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle26.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082294/annotation/list/ART29.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "[No title]",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle27.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    }
+                ]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082295",
+                "@type": "sc:Canvas",
+                "label": "[7]",
+                "height": 5826,
+                "width": 3874,
+                "images": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/3082295.json",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://dams.llgc.org.uk/iiif/2.0/3082295/image/full/512,/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "http://dams.llgc.org.uk/iiif/2.0/image/3082295",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "height": 5826,
+                            "width": 3874,
+                            "tiles": [{
+                                "width": 256,
+                                "scaleFactors": [
+                                    1,
+                                    2,
+                                    4,
+                                    8,
+                                    16,
+                                    32
+                                ]
+                            }]
+                        },
+                        "height": 5826,
+                        "width": 3874
+                    },
+                    "on": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082295"
+                }],
+                "otherContent": [
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082295/annotation/list/ART30.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "[No title]",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle27.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082295/annotation/list/ART31.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "FFRAINC.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle28.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082295/annotation/list/ART32.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "PllWSSIA.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle29.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082295/annotation/list/ART33.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "NAPLES.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle30.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082295/annotation/list/ART34.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "PIEDMONT.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle31.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082295/annotation/list/ART35.json",
+                        "@type": "sc:AnnotationList",
+                        "label": ".Y DWYRAIN.'",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle32.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082295/annotation/list/ART36.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "[No title]",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle33.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082295/annotation/list/ART37.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "Family Notices",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle34.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082295/annotation/list/ART38.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "Advertising",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle35.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    }
+                ]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082296",
+                "@type": "sc:Canvas",
+                "label": "[8]",
+                "height": 5826,
+                "width": 3874,
+                "images": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/3082296.json",
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@id": "http://dams.llgc.org.uk/iiif/2.0/3082296/image/full/512,/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "http://dams.llgc.org.uk/iiif/2.0/image/3082296",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "height": 5826,
+                            "width": 3874,
+                            "tiles": [{
+                                "width": 256,
+                                "scaleFactors": [
+                                    1,
+                                    2,
+                                    4,
+                                    8,
+                                    16,
+                                    32
+                                ]
+                            }]
+                        },
+                        "height": 5826,
+                        "width": 3874
+                    },
+                    "on": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082296"
+                }],
+                "otherContent": [
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082296/annotation/list/ART39.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "EISTEDDFOD FAWR MERTHYR TYDFIL.",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle36.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082296/annotation/list/ART40.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "Advertising",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle37.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082296/annotation/list/ART41.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "[No title]",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle38.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082296/annotation/list/ART42.json",
+                        "@type": "sc:AnnotationList",
+                        "label": "Advertising",
+                        "within": {
+                            "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle39.json",
+                            "@type": "sc:Layer",
+                            "label": "OCR Article Text"
+                        }
+                    }
+                ]
+            }
+        ]
+    }],
+    "structures": [{
+        "id": "http://dams.llgc.org.uk/iiif/3082288/top",
+        "type": "Range",
+        "viewingHint": "top",
+        "label": "Article List",
+        "members": [
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle1",
+                "@type": "sc:Range",
+                "label": "BRAD Y SEPOYS.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "~ [EFELTCHIAD 0 M. J. EKRYM.] AETH y ffoedigion, dan arweiniad Col. Lane, yn mhellach i'r coed, tra'r oedd y Sepoys yn parotoi ymguddfa yn y fan arall, gan lwyr benderfynu",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082289#xywh=738,2871,10407,13518",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle1.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle2",
+                "@type": "sc:Range",
+                "label": "[No title]",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Cafodd Syr J. Ferguson ei ddirwye i 2s 6d. am ysmocio ar Gei Belfast ar ol cael ei orchymyn i beidio. Un diwrnod yr wythnos ddiweddaf, yr oedd garddwr yn Rogate yn symud hen bentwr o'r ardd, a chafodd tua 200",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082289#xywh=7512,14349,3243,1968",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle2.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle3",
+                "@type": "sc:Range",
+                "label": "BYCHANDER DYN.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "* Beth yw ein dysg, ein talentau, a'n gwybodaeth ? Beth yw ein iaitb, ein llenyddiaeth, a'n cymdeitbasau ? Cyflewyd ni nis gwyddom yn mha gornel o'r greadigaeth ; y mae anfeidroldeb natur o'n deutu, a",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082290#xywh=774,1263,6642,14826",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle3.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle4",
+                "@type": "sc:Range",
+                "label": "TRAETHAWD AR Y CWRW BACH,'",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Parhad o'r Rhifyn diweddaf. Y mae rhai dynion yn dyfod adref yn ami o'r 4 Cwrw Bach,'rhwng dau a thri o'r gloch ar foreu dydd yr Arglwydd,' 'Gwaith llawer o bonynt ar",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082290#xywh=4185,1263,6576,14865",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle4.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle5",
+                "@type": "sc:Range",
+                "label": "WALTER SAYAGE LANDOR.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Dyma enw a fu yn ddychryn ac arswyd i ormeslywiawchvyr a gormesweinyddwyr Ewrop am flynyddoedd meithion. Yr ydym yn cofio fel y byddem, yn ein dyddiau bachgenaidd, yn bwyta",
+                "members": [
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082290#xywh=7530,4563,3642,11844",
+                        "@type": "sc:Canvas"
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082291#xywh=1014,987,3093,3237",
+                        "@type": "sc:Canvas"
+                    }
+                ],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle5.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle6",
+                "@type": "sc:Range",
+                "label": "OFERGOELEDD Y CYMRY.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "MR. GOLYGYDD,\u2014Y mae lluaws eto o ertbyglau yn fghredo Coelgrefydd y Cymry, ac mi a sylwaf ar rai o honynt yn yr ysgrifen hon. Y maent yn cael eu galw dan yr enwau, ' Cwn bendith y mamau,' ' Cwn Ebrill,' neu",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082291#xywh=825,4842,3321,9786",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle6.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle7",
+                "@type": "sc:Range",
+                "label": "ATEBIAD I OFYNIAD 'AP IOAN,'",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Penodwyd arnaf (fel y gwyddoch) gan gyfeillion y Ile yma, i ohebu a'r Parch. Owen Jones, Manchester, pa fodd yr oeddym i weithredu mewn trefn i ffurfio Cangen Gymdaithas y Maine Law yn y lie hwn. Ysgrifenais at Mr.",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082291#xywh=831,858,6801,14994",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle7.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle8",
+                "@type": "sc:Range",
+                "label": "AT OLYGYDD Y GWLDGARWR.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "HYBARCH OLYOYDD,\u2014Da genyf ddeall eich bod, trwy gyf-I rwng eich Newyddiadur, yn bwriadu cyhoeddi ' Gramadeg Ceiddorol Spencer,' at wasanaeth ein cenedl, yr hyn yn ddiau fydd o wir leshad. Yn gymaint a bod llaweroedd",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082291#xywh=4299,2451,3267,2775",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle8.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle9",
+                "@type": "sc:Range",
+                "label": "AT OLYGYDD Y GWLADGARWR.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "SYR,\u2014Wrth edrych dros y rhifyn diweddaf o'ch GWLADGARWR,\" canfyddwyf rai sylwadau ar 'Ofergoeledd y CYmvy,' gan Caradoc, yn mha un mae yn dweyd, mewn perthynas i'r Tylwyth Teg, nad yw erioed wedi clywed un",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082291#xywh=4236,5247,3384,3465",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle9.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle10",
+                "@type": "sc:Range",
+                "label": "IY FFYNONAU.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Bum i yn ffynonau Llanfairmuallt ychydig amser yn ol, !syr, ac mi ddymunwn i bob dyn sydd yn cael ei flino gan lesgedd corff a thostedd pen fyned yno, ac yfed y dwfr, Ilwyr a bore a chanol dydd ; a than fendith Duw, byddant",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082291#xywh=4197,8955,3264,5484",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle10.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle11",
+                "@type": "sc:Range",
+                "label": "NATURIOLDEB CHWERTHIN.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "YR ydym ar y ddaearp a chartref llawen ydyw hi i ni. Siarad am chwerthin! Y mae y mellt yn chwerthin; a'r haul a chwardd arnom trwy y cymylau; y ser ymsiglant gan chwerthin trwy gydol y nos; yr adar a chwarddant ar",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082291#xywh=4197,1038,6777,14883",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle11.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle12",
+                "@type": "sc:Range",
+                "label": "AT OLYGYDD Y GWLADGARWR.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Syr,\u2014Yr ydwyf yn danfon y llythyr hwn, i'ch bysbysu am ddarganfyddiad a wnaed yn y lie hwn er ys ychydig o ddiwrnodau yn ol. Gwyddoch fod Pontardawe yn He prydfertli dros ben, a'i liarddwch yn gynwysedig mewn",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082291#xywh=7635,3015,3390,4068",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle12.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle13",
+                "@type": "sc:Range",
+                "label": "Y DANCHWA DDIWEDDAR YN NGWAITH GLO YSTALYFERA.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Allan o'r 'Standard.' YN y ' Standard' am Sadwrn, rhoddasom grynodeb o reith. chwiliad a gynaliwyd ar ddydd Mercher cyn hyny ar gyrph chwech glowr a laddwyd yn y danchwa, yr hon a gymer",
+                "members": [
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082291#xywh=7563,7197,3417,8697",
+                        "@type": "sc:Canvas"
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082292#xywh=1089,993,3300,4041",
+                        "@type": "sc:Canvas"
+                    }
+                ],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle13.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle14",
+                "@type": "sc:Range",
+                "label": "AT EIN DERBYNWYR A'N DOSBARTHWYR.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Gan fod holl drefniant arianol y GWLADGARWR yn awr mewn dwylaw newyddlon, dymunir am i bawb wastadhau eu cyfrifon a Mr. Abraham Mason, Cardiff Street, yn ddiosd\u2014sef yr holl gyfrifon hyd y Sadwrn Awst 28.",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082292#xywh=1053,5283,3264,1851",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle14.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle15",
+                "@type": "sc:Range",
+                "label": "AT EIN GOHEBWYR.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "DEWI 0 HIRWAEN.\u2014Pe y cyhoeddem eich llythyr, byddem yn agored i gyfraith. Trueni nad allasech drin y ffeithiau hyny yn fwy boneddigaidd, er, efallai, mai ofer bod yn dyner wrth ddynion fel hwynt.",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082292#xywh=1020,7308,3252,2781",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle15.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle16",
+                "@type": "sc:Range",
+                "label": "[No title]",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Ni fu genym ni erioed yr ymddiried lleiaf mewn Pabyddiaeth na Phabyddion. Po mwyaf o gynydd a fo ar Babyddiaeth yn y wlad, mwyaf o berygl fydd i ddyogelwch y Goron, a mwyaf o",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082292#xywh=906,1083,6846,15000",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle16.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle17",
+                "@type": "sc:Range",
+                "label": "[No title]",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Mae darostyngiad y gwrthryfel yn yr India yn sicr bellach. Deallwn oddiwrth y newyddion diweddaraf a dderbyniwyd oddiyno fod y gwrthryfelwyr yn lleihau bob dydd-rhai byddinoedd cyfain wedi eu gwasgaru a'u dy",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082292#xywh=4248,1179,6879,14784",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle17.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle18",
+                "@type": "sc:Range",
+                "label": "[No title]",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Mae cryn amser bellach er pan ddygwyddodd y danchwa yn ngwaith glo Ystalyfera, ond y mae yr effaith heb ddarod eto. 0 ran hyny, pa bryd y derfydd yr effaith coll bywyd chwech o ddynion ? Pa bryd y sychir dagrau y",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082292#xywh=7641,5844,3417,8841",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle18.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle19",
+                "@type": "sc:Range",
+                "label": "[No title]",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": ",v?nU^IO-fDEB AC E,Lor^lwr-y7 hw,i sydd yn yflogi mfer mawr o ddwylaw mewn llaw-weithfayn Naore m Lloegr\u2014I r dyben o gefnogi ei weithwyr i fyned i'r w aenti'r Irf >'mi3ryd '^weddar, a ddywedodd wrthynt,",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082292#xywh=7623,14781,3603,1605",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle19.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle20",
+                "@type": "sc:Range",
+                "label": "CYFARFOD USTUSIAID ABERDAR.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Dydd Mawrth, Medi 7.-Ustusiaid ar y Fainc-Meistri Fowler, (Cadeirydd,) Roberts, a Wayne. Yr oedd cryn dipyn o gyffro yn y He yn nghylch y cyfarfod hwn, trwy ei fod yn gyfarfod blynyddol i ganiatau",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082293#xywh=900,1128,10428,14970",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle20.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle21",
+                "@type": "sc:Range",
+                "label": "[No title]",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "Detailed Lists, Results and Guides"
+                }],
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082293#xywh=7695,8796,3633,7257",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle21.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle22",
+                "@type": "sc:Range",
+                "label": "PENILLION I'R GANWYLL.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Pan fyddech mewn lie tywyll, , t. A dyrus anial erchyll, Mawr gysur fydd i feddwl gwan, ; K Cael goleu gan y ganwyll.",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082294#xywh=861,1101,3225,5004",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle22.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle23",
+                "@type": "sc:Range",
+                "label": ";'AWELON YR ERYRI.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "-A ganlyn ydynt ciriau y Deuawd a'r Canigau sydd i fod yn gystadleuol yn Nghijlchwyl Cymdeithas Gerddorol Ddirwestol Aberdar. Gwel Hysbysiad. Tr..ITHiwit.:- Hoff Fugail, rho bwys i'th frysio,",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082294#xywh=825,6375,3402,6180",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle23.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle24",
+                "@type": "sc:Range",
+                "label": "GWEL GLYNDWR A'I WYR!",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Gwel Glyndwr a'i wyr !\u2014 digyffelyb mewn nerth, A'u banerau ar wynt dros y Banau tra serth; Fel medelwyr yn awchus am waith gyda'r wawr, I gynhauaf coch angeu disgynant i Jawr.",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082294#xywh=1131,12759,2973,1641",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle24.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle25",
+                "@type": "sc:Range",
+                "label": "CANIG DDIRWESTOL.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "GAlanstra-mellditb-difrod-Sydd yn dylyn camrau medd'dod ; Ochain, beichio, mae dynoliaeth-Gruddfan am ei gwaredigaeth.",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082294#xywh=1275,14604,2811,1206",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle25.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle26",
+                "@type": "sc:Range",
+                "label": "[No title]",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Y mae un o'r magnelau a gymerwyd o Canton wedi ei danfon i Paris. Magnel pres ydyw, o rym mawr, tua naw troedfedd o byd, ac yn cael ei gorchuddio ag arwyddion Chineaidd.",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082294#xywh=4323,771,6867,14964",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle26.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle27",
+                "@type": "sc:Range",
+                "label": "[No title]",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Sut i rwystro y clêr (' piwiod,' yn ol iaith sir Fflitit-I pryfeid' yn ol iaith sir Fon )-sut i rwystro j cler i fyned at dy gig moch yn yr haf.\u2014Bwyta fo i gyd yn gynar yn y gwanwyn. ^",
+                "members": [
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082294#xywh=7737,9552,3537,6651",
+                        "@type": "sc:Canvas"
+                    },
+                    {
+                        "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082295#xywh=774,1125,3261,3405",
+                        "@type": "sc:Canvas"
+                    }
+                ],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle27.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle28",
+                "@type": "sc:Range",
+                "label": "FFRAINC.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Y mae newyddiaduron Paris yn parhau i gyhoeddi erthyglau esboniadol ar araeth Count Persigny ar gyfrathach Lloegr a Ffrainc, a rhai o honynt yn dangos teimlad drwg a chwerwder ys",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082295#xywh=702,1107,6708,15225",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle28.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle29",
+                "@type": "sc:Range",
+                "label": "PllWSSIA.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Y mae Tywysog Prwssia wedi rhoddi prawf newydd o'i ymlyniad wrth yr achos rhyddfrydig, trwy gyhoeddi ei benderfyniad i gyfodi cofadail i'r .gwleidyddwr enwog hwnw, Freichen von",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082295#xywh=4185,4593,3252,3354",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle29.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle30",
+                "@type": "sc:Range",
+                "label": "NAPLES.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Y mater mwyaf dyddorol yn Naples yn awr ydyw priodas y Tywysog Etifeddol. Mae bywn iogrwydd mawr yn y palas ar gyfer yr amgylchiad.",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082295#xywh=4206,7980,3258,3615",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle30.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle31",
+                "@type": "sc:Range",
+                "label": "PIEDMONT.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Cafodd y linell rheilffordd o Culoz i St. Innocent ei hagor ar yr 2il o Fedi. Penodwyd fod tri thrain bob dydd i fyned i Geneva, a dau i Paris, Lyons, a Turin. Teithir o Paris i Aix mewn",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082295#xywh=4203,11673,3252,1845",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle31.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle32",
+                "@type": "sc:Range",
+                "label": ".Y DWYRAIN.'",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Ilysbysir ni, yn y newyddion diweddaraf o Alexandria, fod cynrychiolwyr Ffrainc, Awstria, America, a Thir Groeg, yn Stanchio, (yr hen Cos) wedi eu llofruddio, trwy greulondeb arswydus.",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082295#xywh=4206,13596,3285,2745",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle32.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle33",
+                "@type": "sc:Range",
+                "label": "[No title]",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "Yr oedd t6n gyffredinol niarchnadoedd fd y Cyfandir yn gadarn, ond ni chymerodd un cyfnewidiad pwysig le yn y prisiau. Yr hyn a werthwyd o wenith gan amaethwyr y deyrnas:",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082295#xywh=7518,1398,3774,2601",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle33.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle34",
+                "@type": "sc:Range",
+                "label": "Family Notices",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "Family Notices"
+                }],
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082295#xywh=7548,4170,3771,4500",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle34.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle35",
+                "@type": "sc:Range",
+                "label": "Advertising",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "Advertising"
+                }],
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082295#xywh=7491,8862,3837,7479",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle35.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle36",
+                "@type": "sc:Range",
+                "label": "EISTEDDFOD FAWR MERTHYR TYDFIL.",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": ": LLYWYDD\u2014H. A. Bruce, Ysw., A.S. ! - ( Mr. T. Stephens, Heol Fawr. . TEYSOEYDDION J PARC}1> Evan Jones, Ynysgau. \"VI\"AE Cymrodorion Dirwestol Merthyr Tydfil, ar ol",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082296#xywh=768,1149,6747,15195",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle36.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle37",
+                "@type": "sc:Range",
+                "label": "Advertising",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "Advertising"
+                }],
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082296#xywh=4194,2718,3312,8322",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle37.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle38",
+                "@type": "sc:Range",
+                "label": "[No title]",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "News"
+                }],
+                "description": "CYMDEITHAS GERDDOROL DDIRWESTOL ABERDAR. AT GERDDORION CYMRU BENBALADR! CYNELIR Cylchwyl gyntaf y Gymdeithas uchod, ar y dydd cyntaf o Fawrth, 1859, sef Dydd Gwyl Dewi",
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082296#xywh=4122,1011,6987,15024",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle38.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            },
+            {
+                "@id": "http://dams.llgc.org.uk/iiif/3082288/article/modsarticle39",
+                "@type": "sc:Range",
+                "label": "Advertising",
+                "metadata": [{
+                    "label": "Article Category",
+                    "value": "Advertising"
+                }],
+                "members": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/canvas/3082296#xywh=7488,1104,3642,15183",
+                    "@type": "sc:Canvas"
+                }],
+                "contentLayer": [{
+                    "@id": "http://dams.llgc.org.uk/iiif/3082288/annotation/layer/modsarticle39.json",
+                    "@type": "sc:Layer",
+                    "label": "OCR Article Text"
+                }]
+            }
+        ]
+    }]
+}
