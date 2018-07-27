@@ -3,7 +3,7 @@
             xmlns:alto="http://www.loc.gov/standards/alto/ns-v2#"> <!-- note this namespace may need to change for different versions of ALTO -->
     <xsl:output method="text"/>
     <!-- This needs to resolve to the annotation list: -->
-    <xsl:param name="annoURI" select="'http://dams.llgc.org.uk/iiif/$pageId/annotation/list.json'"/>
+    <xsl:param name="annoURI" select="'http://localhost:8888/examples/anno_list.json'"/>
 
     <!--
         The ALTO may have been generated from the TIFF, if so the jp2 or IIIF image might be a different size. If so
@@ -13,12 +13,12 @@
     <xsl:param name="yRatio" select="'3'"/>
 
     <!-- Links to the canvas for the annotation and the manifest for the within -->
-    <xsl:param name="canvasURI" select="'http://dams.llgc.org.uk/iiif/3100186/canvas/3199187.json'"/>
+    <xsl:param name="canvasURI" select="'http://dams.llgc.org.uk/iiif/3320640/canvas/3320641'" />
     <!--
         Include this if you want to have a within link in the annotation. For example:
         <xsl:param name="manifestURI" select="'http://dams.llgc.org.uk/iiif/3100186/manifest.json'"/>
     -->
-    <xsl:param name="manifestURI" select="''"/>
+    <xsl:param name="manifestURI" select="'http://dams.llgc.org.uk/iiif/newspaper/issue/3320640/manifest.json'"/>
 
     <xsl:variable name="quote">'</xsl:variable>
     <xsl:variable name="doubleqoute">"</xsl:variable>
@@ -30,10 +30,10 @@
             "@type":"sc:AnnotationList",
             "resources":[
                 <!--
-                    If you want line level annotations use the following:
-                    <xsl:for-each select="/alto:alto/alto:Layout/alto:Page/alto:PrintSpace/alto:TextBlock//alto:TextLine">
+                    If you want word level annotations use the following:
+                <xsl:for-each select="/alto:alto/alto:Layout/alto:Page/alto:PrintSpace//alto:TextBlock//alto:TextLine/*">
                 -->
-                <xsl:for-each select="/alto:alto/alto:Layout/alto:Page/alto:PrintSpace/alto:TextBlock//alto:TextLine/*">
+                    <xsl:for-each select="/alto:alto/alto:Layout/alto:Page/alto:PrintSpace//alto:TextBlock//alto:TextLine">
                     {
                         "@type":"oa:Annotation",
                         "motivation":"sc:painting",
