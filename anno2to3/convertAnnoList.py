@@ -14,9 +14,16 @@ def findCanvasId(manifest, imageId):
             for annoPages in canvas['items']:
                 for annos in annoPages['items']:
                     for services in annos['body']['service']:
-                        print ('Checking {} against {}'.format(services['id'], imageId))
-                        if services['id'] == imageId:
-                            canvas_id = canvas['id']
+                        if 'id' in services:
+                            print ('Checking {} against {}'.format(services['id'], imageId))
+                            if services['id'] == imageId:
+                                canvas_id = canvas['id']
+                        elif '@id' in services:        
+                            print ('Checking {} against {}'.format(services['@id'], imageId))
+                            if services['@id'] == imageId:
+                                canvas_id = canvas['id']
+                        else:
+                            print ('Missing id in: {}'.format(services))
                 
         if canvas_id:     
             canvasHash[imageId] = canvas_id
