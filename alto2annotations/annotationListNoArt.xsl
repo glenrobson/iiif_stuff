@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
-            xmlns:alto="http://www.loc.gov/standards/alto/ns-v2#"> <!-- note this namespace may need to change for different versions of ALTO -->
+            xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#"> <!-- note this namespace may need to change for different versions of ALTO -->
     <xsl:output method="text"/>
     <!-- This needs to resolve to the annotation list: -->
     <xsl:param name="annoURI" select="'http://localhost:8888/examples/anno_list.json'"/>

@@ -21,3 +21,9 @@ The required parameters are:
 
 You can also optionally supply:
  * **manifestURI** if this is supplied it will add a ```within``` field to all of the annotations pointing to the manifest. This is useful as the canvas URI isn't necessarily resolvable so being able to get the manifest that contains the canvas allows users of the annotation to display the image as well as the annotation. If the viewer is starting from the Manifest (e.g. with Mirador) this within isn't used.
+
+To run this from the command line you can run:
+
+```
+xsltproc --stringparam annoURI "http://localhost:8887/altoAnnotations.json" --stringparam xRatio 1 --stringparam yRatio 1  --stringparam canvasURI "http://07ae9a4f-5e65-4ecd-9796-7f682e7e0b37" annotationListNoArt.xsl /Users/gmr/Downloads/CAVA_TS_1371_5097_0008_002_alto.xml > altoAnnotations.json
+```
