@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>Annotorious Face detection</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@recogito/annotorious-openseadragon@latest/dist/annotorious.min.css">
+        <style>
+            #status {
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                opacity: 0.5;
+                background-color: #bbbdc5;
+                width: 300px;
+                padding: 5px 5px 5px 5px;
+                z-index: 100;
+            }
+        </style>
+    </head>
+    <body>
+
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script>
+    <!-- CSS stylesheet -->
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious-openseadragon@latest/dist/openseadragon-annotorious.min.js"></script>
+    <script src="js/face-api.js"></script>
+    <div id="status"></div>
+    <div id="osd" style="height: 90vh">
+    </div>
+    <p>Hold SHIFT while clicking and dragging the mouse to create a new annotation. Click the annotation to edit. </p>
+    <img id="image" crossorigin='anonymous' style="display:none"/>
+    <script type="text/javascript">
+        // From Getty code: http://www.getty.edu/art/collection/static/viewers/mirador/?manifest=https://data.getty.edu/museum/api/iiif/1895/manifest.json
+        function getURLParameter(param) {
+            if(typeof(param) == "string" && param.length > 0) {
+                if(typeof(window.location.search) == "string" && window.location.search.length > 0) {
+                    var _results = new RegExp(param + "=([^&]*)", "i").exec(window.location.search);
+                    if(typeof(_results) == "object" && _results !== null && typeof(_results.length) == "number" && _results.length > 0 && _results[1]) {
+                        if(typeof(_results[1]) == "string" && _results[1].length > 0) {
+                            return unescape(_results[1]);
+                        }
+                    }
+                }
+            }
+            return null;
+        }
+       
+       var iiifImage = getURLParameter("iiif-content");
+       if (iiifImage.endsWith("/info.json")) {
+          var infoJsonURL = iiifImage;
+       } else {
+          if (iiifImage.endsWith("/")) {
+              var infoJsonURL = iiifImage + "info.json";
+          } else {
+              var infoJsonURL = iiifImage + "/info.json";
+          }
+       }
+       const input = document.getElementById('image');
+       const log = document.getElementById('status')
+       log.style.display = "block";
+       log.innerHTML = "Loading image";
+       input.src = infoJsonURL.replace("/info.json", "/full/1024,/0/default.jpg");
+       log.innerHTML = "Loading Opensea dragon";
+       var viewer = OpenSeadragon({
+                    id:            "osd",
+                    prefixUrl:     "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+                    sequenceMode:  true,
+                    tileSources:   [
+                        infoJsonURL
+                    ]
+                });
+        // Initialize the Annotorious plugin
+        log.innerHTML = "Loading annotation plugin";
+        var anno = OpenSeadragon.Annotorious(viewer);            
+        console.log(faceapi.nets)
+        const MODEL_URL = 'models';
+
+        (async() => {
+            log.innerHTML = "Loading machine learning model...";
+            await faceapi.loadSsdMobilenetv1Model(MODEL_URL);
+            log.innerHTML = "Looking for faces...";
+            let fullFaceDescriptions = await faceapi.detectAllFaces(input);
+            let dimensions = {
+                width: viewer.source.width,
+                height: viewer.source.height
+            }
+            fullFaceDescriptions = faceapi.resizeResults(fullFaceDescriptions, dimensions);
+            log.innerHTML = "Drawing faces...";
+            for (var i = 0; i < fullFaceDescriptions.length; i++) {
+                anno.addAnnotation({
+                     "@context": "http://www.w3.org/ns/anno.jsonld",
+                      "id": "http://example.org/face-" + i,
+                      "type": "Annotation",
+                      "motivation": "tagging",
+                      "body": {
+                          "type": "TextualBody",
+                          "value": "Face"
+                      },
+                      "target": {
+                          "selector": {
+                              "type": "FragmentSelector",
+                              "conformsTo": "http://www.w3.org/TR/media-frags/",
+                              "value": "xywh=" + Math.round(fullFaceDescriptions[i].box.x) + "," + Math.round(fullFaceDescriptions[i].box.y)+ "," + Math.round(fullFaceDescriptions[i].box.width) + "," + Math.round(fullFaceDescriptions[i].box.height)
+                          }
+                      }
+                });
+            }
+  
+            log.innerHTML = "Done";
+            log.style.display = "none";
+        })();
+    </script>
+    </body>
+</html>
