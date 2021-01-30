@@ -14,7 +14,7 @@ Try your own IIIF Image URL:
 <form target="demo.html" method="GET">
 <div class="form-group">
 <label for="image_api">IIIF Image URL:</label>
-<input type="text" id="image_api" name="iiif-content" size="150"/>
+<input type="text" id="image_api" name="iiif-content" size="70"/>
 <button type="submit">View</button>
 </div>    
 </form>
