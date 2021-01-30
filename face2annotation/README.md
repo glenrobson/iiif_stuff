@@ -12,11 +12,11 @@ The face-api.js uses a JavaScript version of tenserflow and in this version a Si
 
 Try your own IIIF Image URL: 
 <form>
-    <div class="form-group"
-        <label for="image_api">IIIF Image URL:</label>
-        <input type="text" id="image_api" />
-    </div>    
-    <button type="submit" class="btn btn-primary">View</button>
+<div class="form-group">
+<label for="image_api">IIIF Image URL:</label>
+<input type="text" id="image_api" />
+</div>    
+<button type="submit" class="btn btn-primary">View</button>
 </form>
 
 
