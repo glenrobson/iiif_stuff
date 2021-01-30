@@ -10,10 +10,20 @@ The face-api.js uses a JavaScript version of tenserflow and in this version a Si
 
 ## Examples
 
+Try your own IIIF Image URL: 
+<form>
+    <div class="form-group"
+        <label for="image_api">IIIF Image URL:</label>
+        <input type="text" id="image_api" />
+    </div>    
+    <button type="submit" class="btn btn-primary">View</button>
+</form>
+
+
 This isn't a perfect solution but does work on the following images:
 
  * [National Library of Wales, Photograph by John Thomas](demo.html?iiif-content=https://damsssl.llgc.org.uk/iiif/2.0/image/4670355) - [Original Image](https://viewer.library.wales/4670355)
 
 The results for the following are not so great:
 
- * [Group portrait from Library of The Jewish Theological Seminary](demo.html?iiif-content=https://media.jhn.ngo/iiif/2/DC_JTSA:oai_jts_jts_38225:38225_PNT_G_01880.tif.tiff/full/full/0/default.jpg) [Image in Europeana](https://www.europeana.eu/en/item/232/https___digitalcollections_jtsa_edu_islandora_object_jts_3A38225_datastream_TN_view__5BGroup_20portrait_5D__jpg)
+ * [Group portrait from Library of The Jewish Theological Seminary](demo.html?iiif-content=https://media.jhn.ngo/iiif/2/DC_JTSA:oai_jts_jts_38225:38225_PNT_G_01880.tif.tiff) - [Image in Europeana](https://www.europeana.eu/en/item/232/https___digitalcollections_jtsa_edu_islandora_object_jts_3A38225_datastream_TN_view__5BGroup_20portrait_5D__jpg)
