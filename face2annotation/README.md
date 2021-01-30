@@ -8,17 +8,18 @@ This uses the excellent [Annotorious](https://recogito.github.io/annotorious/) a
 
 The face-api.js uses a JavaScript version of tenserflow and in this version a Single Shot Multibox Detector machine learning model to identify faces and return x,y,width,heigh in the image. My code then converts them to W3C annotations and passes them to Annotorious to draw them on to Openseadragon. 
 
-## Examples
+## Try a IIIF Image
 
 Try your own IIIF Image URL: 
-<form>
+<form target="demo.html" method="GET">
 <div class="form-group">
 <label for="image_api">IIIF Image URL:</label>
-<input type="text" id="image_api" />
+<input type="text" id="image_api" name="iiif-content" size="150"/>
+<button type="submit">View</button>
 </div>    
-<button type="submit" class="btn btn-primary">View</button>
 </form>
 
+## Examples
 
 This isn't a perfect solution but does work on the following images:
 
