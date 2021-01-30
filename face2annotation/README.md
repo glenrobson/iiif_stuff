@@ -10,7 +10,7 @@ The face-api.js uses a JavaScript version of tenserflow and in this version a Si
 
 ## Try a IIIF Image
 
-Try your own IIIF Image URL: 
+Try your own IIIF Image URL (URL should end with `info.json`): 
 <form action="demo.html" method="GET">
 <div class="form-group">
 <label for="image_api">IIIF Image URL:</label>
@@ -25,6 +25,7 @@ This isn't a perfect solution but does work on the following images:
 
  * [National Library of Wales, Photograph by John Thomas](demo.html?iiif-content=https://damsssl.llgc.org.uk/iiif/2.0/image/4670355) - ([Image at NLW](https://viewer.library.wales/4670355))
  * [National Library of Wales, Photograph by Geoff Charles - multiple people in photo](demo.html?iiif-content=https://damsssl.llgc.org.uk/iiif/2.0/image/1459052) - ([Image at NLW](https://viewer.library.wales/1459048))
+ * [National Library of Wales, Photograph by Geoff Charles - Men with hats](demo.html?iiif-content=https://damsssl.llgc.org.uk/iiif/2.0/image/1507516) - ([Image at NLW](https://viewer.library.wales/1507515))
 
 The results for the following are not so great:
 
