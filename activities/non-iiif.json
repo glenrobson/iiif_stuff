@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "http://iiif.io/api/discovery/0/context.json",
+        "https://www.w3.org/ns/activitystreams"
+    ],
+    "id": "https://glenrobson.github.io/iiif_stuff/activities/non-iiif.json",
+    "next": {
+        "id": "https://iiif.bodleian.ox.ac.uk/iiif/activity/page-1",
+        "type": "OrderedCollectionPage"
+    },
+    "orderedItems": [
+        {
+            
+            "id": "https://glenrobson.github.io/iiif_stuff/activities/20210203170300",
+            "type": "Update",
+            "endTime": "2021-02-03T12:44:31Z",
+            "actor": {
+                "id": "https://iiif.io",
+                "type": "Organization"
+            },
+            "seeAlso": [{
+                "id": "https://iiif.io/marc/catalogue/rec1.xml",
+                "type": "Dataset",
+                "format": "application/xml"
+            }],
+            "object": {
+                "id": "https://iiif.io/assets/acc_implementation_guide_011017.pdf",
+                "name": "IIIF Implementation Guide",
+                "type": "Dataset" 
+            }
+        }
+    ]
+}
