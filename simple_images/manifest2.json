@@ -23,7 +23,31 @@
 				}
 			],
 			"canvases": [
-				{
+				
+                {
+					"@id": "http://a292a51f-5975-497f-b9a4-8a962e380762-2",
+					"@type": "sc:Canvas",
+					"label": "Static Image",
+                    "thumbnail": "https://fixtures.iiif.io/images/Glen/photos/gottingen.jpg",
+					"height": 3024,
+					"width": 4032,
+					"images": [
+						{
+							"@id": "http://3e071cbb-e37e-49c9-8b60-4d996885f5e81",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://fixtures.iiif.io/images/Glen/photos/gottingen.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 3024,
+								"width": 4032
+							},
+							"on": "http://a292a51f-5975-497f-b9a4-8a962e380762-2"
+						}
+					]
+				},
+                {
 					"@id": "http://a292a51f-5975-497f-b9a4-8a962e380762",
 					"@type": "sc:Canvas",
 					"label": "Empty canvas",
@@ -52,30 +76,7 @@
 							"on": "http://a292a51f-5975-497f-b9a4-8a962e380762"
 						}
 					]
-				},
-                {
-					"@id": "http://a292a51f-5975-497f-b9a4-8a962e380762-2",
-					"@type": "sc:Canvas",
-					"label": "Static Image",
-					"height": 3024,
-					"width": 4032,
-					"images": [
-						{
-							"@id": "http://3e071cbb-e37e-49c9-8b60-4d996885f5e81",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "https://fixtures.iiif.io/images/Glen/photos/gottingen.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"height": 3024,
-								"width": 4032
-							},
-							"on": "http://a292a51f-5975-497f-b9a4-8a962e380762-2"
-						}
-					]
 				}
-
 			]
 		}
 	],
