@@ -4,10 +4,6 @@
         "https://www.w3.org/ns/activitystreams"
     ],
     "id": "https://glenrobson.github.io/iiif_stuff/activities/non-iiif.json",
-    "next": {
-        "id": "https://iiif.bodleian.ox.ac.uk/iiif/activity/page-1",
-        "type": "OrderedCollectionPage"
-    },
     "orderedItems": [
         {
             
@@ -27,6 +23,26 @@
                 "id": "https://iiif.io/assets/acc_implementation_guide_011017.pdf",
                 "name": "IIIF Implementation Guide",
                 "type": "Dataset" 
+            }
+        },
+        {
+            
+            "id": "https://glenrobson.github.io/iiif_stuff/activities/20210203170301",
+            "type": "Update",
+            "endTime": "2021-02-03T12:44:32Z",
+            "actor": {
+                "id": "http://www.jtsa.edu/library",
+                "type": "Organization"
+            },
+            "seeAlso": [{
+                "id": "http://data.europeana.eu/item/232/https___digitalcollections_jtsa_edu_islandora_object_jts_3A18709_datastream_TN_view_Portrait_20of_20Ishmael_20Aga__jpg",
+                "type": "Dataset",
+                "format": "application/rdf+xml"
+            }],
+            "object": {
+                "id": "https://media.jhn.ngo/iiif/2/DC_JTSA:oai_jts_jts_18709:18709_pt_g00037.tif.tiff",
+                "name": "IIIF Image",
+                "type": "Image" 
             }
         }
     ]
