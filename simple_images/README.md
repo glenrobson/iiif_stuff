@@ -13,6 +13,7 @@ Which is just a straight jpg like any other image on the web. To add this to a m
     "label": "Static Image",
     "height": 3024,
     "width": 4032,
+    "thumbnail": "https://fixtures.iiif.io/images/Glen/photos/gottingen.jpg",
     "images": [
         {
             "@id": "http://example.com/canvas/2/annotation/1",
@@ -31,10 +32,17 @@ Which is just a straight jpg like any other image on the web. To add this to a m
 }
 ```
 
-The parts that you need to edit in the code above is the references to `height` and `width` which should match the image you are using. Then replace the `resoure/@id` with the URL to your image. This is enough to create a canvas with a non IIIF image and the manifest can be annotated just like any other manifest. See the links below to see this in action:
+The parts that you need to edit in the code above is the references to `height` and `width` which should match the image you are using. Then replace the `resoure/@id` and `thumbnail` with the URL to your image. The `thumbnail` isn't strictly required but you get a broken image in the thumbnail side panel in the UV if you don't include it. This is enough to create a canvas with a non IIIF image and the manifest can be annotated just like any other manifest. 
+
+See the links below to see this in action:
 
 __note:__ the second canvas in this example is a IIIF image so you can see the difference between a IIIF Image and a Non IIIF Image. 
 
  * [manifest2.json](https://glenrobson.github.io/iiif_stuff/simple_images/manifest2.json)
  * [Manifest in the Universal Viewer](https://uv-v3.netlify.app/#?c=&m=&s=&cv=&manifest=https://glenrobson.github.io/iiif_stuff/simple_images/manifest2.json)
  * [Manifest in Mirador3](https://projectmirador.org/embed/?iiif-content=https://glenrobson.github.io/iiif_stuff/simple_images/manifest2.json)
+
+The only real downside to this approach over using a IIIF image is:
+
+ * It will be very slow for very large images
+ * With smaller images you don't get the same levels of zoom.
