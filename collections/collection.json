@@ -5,7 +5,7 @@
   "label": { "en": [ "Test collection" ] },
   "items": [
         {
-            "id": "https://glenrobson.github.io/iiif_stuff/collections/collection.json",
+            "id": "https://glenrobson.github.io/iiif_stuff/collections/wills-collection.json",
             "type": "Collection",
             "label": { "en": [ "Wills Sub collection" ] },
             "items": [
