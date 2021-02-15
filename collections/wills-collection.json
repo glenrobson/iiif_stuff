@@ -1,0 +1,32 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://glenrobson.github.io/iiif_stuff/collections/wills-collection.json",
+    "type": "Collection",
+    "label": { "en": [ "Wills Sub collection" ] },
+    "items": [
+        {
+          "id": "https://damsssl.llgc.org.uk/iiif/2.0/1/manifest.json",
+          "type": "Manifest",
+          "label": { "en": [ "William Thomas : will, 1807." ] },
+          "thumbnail": [
+            {
+              "id": "http://dams.llgc.org.uk/iiif/2.0/image/2/full/max/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg"
+            }
+          ]
+        },
+        {
+          "id": "https://damsssl.llgc.org.uk/iiif/2.0/275333/manifest.json",
+          "type": "Manifest",
+          "label": { "en": [ "Jane Robson : will, 1853." ] },
+          "thumbnail": [
+            {
+              "id": "http://dams.llgc.org.uk/iiif/2.0/image/275334/full/max/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg"
+            }
+          ]
+        }
+    ]
+}
