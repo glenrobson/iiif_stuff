@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://glenrobson.github.io/iiif_stuff/collections/collection.json",
+  "type": "Collection",
+  "label": { "en": [ "Test collection" ] },
+  "items": [
+        {
+            "id": "https://glenrobson.github.io/iiif_stuff/collections/collection.json",
+            "type": "Collection",
+            "label": { "en": [ "Wills Sub collection" ] },
+            "items": [
+                {
+                  "id": "https://damsssl.llgc.org.uk/iiif/2.0/1/manifest.json",
+                  "type": "Manifest",
+                  "label": { "en": [ "William Thomas : will, 1807." ] },
+                  "thumbnail": [
+                    {
+                      "id": "http://dams.llgc.org.uk/iiif/2.0/image/2/full/max/0/default.jpg",
+                      "type": "Image",
+                      "format": "image/jpeg"
+                    }
+                  ]
+                },
+                {
+                  "id": "https://damsssl.llgc.org.uk/iiif/2.0/275333/manifest.json",
+                  "type": "Manifest",
+                  "label": { "en": [ "Jane Robson : will, 1853." ] },
+                  "thumbnail": [
+                    {
+                      "id": "http://dams.llgc.org.uk/iiif/2.0/image/275334/full/max/0/default.jpg",
+                      "type": "Image",
+                      "format": "image/jpeg"
+                    }
+                  ]
+                }
+
+            ]
+        },
+        {
+            "id": "https://purl.stanford.edu/rd447dz7630/iiif/manifest",
+            "type": "Manifest",
+            "label": { "en": [ "The clans of the Scottish Highlands : illustrated by appropriate figures, displaying their dress, tartans, arms, armorial insignia, and social occupations" ] },
+            "thumbnail": [{
+                "id": "https://stacks.stanford.edu/image/iiif/rd447dz7630%252Frd447dz7630_00_0001/full/512,/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+            }]
+        }
+    ]
+}

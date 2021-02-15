@@ -8,3 +8,4 @@ IIIF Examples and useful code
  * [anno2to3](anno2to3/) - Convert IIIF version 2 annotations to version 3
  * [image_scripts](image_scripts/) - Image conversion helper scripts
  * [standalone-iiif](standalone-iiif/) - Helper script to update the ID in a level0 IIIF image
+ * [Collection testing](collections/) - Testing collections with viewers
