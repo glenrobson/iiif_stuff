@@ -1,0 +1,105 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:Manifest",
+    "@id": "https://glenrobson.github.io/iiif_stuff/canvas_diff_dimensions/manifest-different.json",
+    "label": "Different size canvases",
+    "description": "<p>Example of different sized Canvases, its a manufactured example from <a href='https://viewer.library.wales/4396654'>Brut y Brenhinedd NLW</a> as in the real example the smaller page is the same size as the large one.</p>",
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "viewingHint": "paged",
+            "viewingDirection": "left-to-right",
+            "canvases": [
+                {
+                    "@type": "sc:Canvas",
+                    "@id": "https://collections.st-andrews.ac.uk/762604/manifest/canvas/407375",
+                    "otherContent": [
+                        {
+                            "@id": "https://collections.st-andrews.ac.uk/annotation/762604/407375",
+                            "@type": "sc:AnnotationList"
+                        },
+                        {
+                            "@id": "https://collections.st-andrews.ac.uk/ai/anno/all/762604/407375/4674/6194",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
+                    "label": "001 For PQ4270.A8B58 front board",
+                    "width": 4674,
+                    "height": 6194,
+                    "thumbnail": {
+                        "@id": "https://collections.st-andrews.ac.uk/media/407375/407375.thumb.jpg",
+                        "@type": "dctypes:Image",
+                        "width": 100,
+                        "height": 100
+                    },
+                    "images": [
+                        {
+                            "@type": "dctypes:Image",
+                            "motivation": "sc:painting",
+                            "on": "https://collections.st-andrews.ac.uk/762604/manifest/canvas/407375",
+                            "resource": {
+                                "@type": "dctypes:Image",
+                                "@id": "https://collections.st-andrews.ac.uk/iiif/2/407375~407375/full/full/0/default.jpg",
+                                "format": "image/jpeg",
+                                "width": 4674,
+                                "height": 6194,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://collections.st-andrews.ac.uk/iiif/2/407375~407375",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://example.com/canvas/1",
+                    "@type": "sc:Canvas",
+                    "label": "Larger image",
+                    "width": 3000,
+                    "height": 3888,
+                    "images": [
+                        {
+                            "@type": "dctypes:Image",
+                            "motivation": "sc:painting",
+                            "on": "https://example.com/canvas/1",
+                            "resource": {
+                                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/4396878/full/1024,/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 3000,
+                                "height": 3888,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/4396878",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://example.com/canvas/2",
+                    "@type": "sc:Canvas",
+                    "label": "smaller image",
+                    "width": 1024,
+                    "height": 995,
+                    "images": [
+                        {
+                            "@type": "dctypes:Image",
+                            "motivation": "sc:painting",
+                            "on": "https://example.com/canvas/2",
+                            "resource": {
+                                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/4396879/15,1437,2252,2188/1024,/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 1024,
+                                "height": 995
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

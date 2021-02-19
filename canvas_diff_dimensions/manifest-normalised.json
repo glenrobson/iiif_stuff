@@ -1,0 +1,244 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:Manifest",
+    "@id": "https://glenrobson.github.io/iiif_stuff/canvas_diff_dimensions/manifest-normalised.json",
+    "label": "Orlando Furioso",
+    "description": "For full details see <a href=\"https://library.st-andrews.ac.uk/record=b1299840~S5\" target=\"_BLANK\"> Rare Books Catalogue.</a>",
+    "attribution": "Image courtesy of University of St Andrews Library.",
+    "logo": "https://collections.st-andrews.ac.uk/uv/logo.png",
+    "metadata": [
+        {
+            "label": "Identifier",
+            "value": "For PQ4270.A8B58"
+        },
+        {
+            "label": "Title",
+            "value": "Orlando Furioso"
+        },
+        {
+            "label": "Descriptive Title",
+            "value": "<p>Full surrogate of Ariosto's 'Orlando Furioso', 1558<br></p>"
+        },
+        {
+            "label": "Date",
+            "value": "1558"
+        },
+        {
+            "label": "Creator",
+            "value": " <a href='https://collections.st-andrews.ac.uk/search/?query=ArtistIRN:665&form=grid&mode=query'>ARIOSTO, Ludovico, (1474 - 1533)  (author) </a>,<a href='https://collections.st-andrews.ac.uk/search/?query=ArtistIRN:17779&form=grid&mode=query'>Valgrisi, Vincenzo  (printer) </a>,<a href='https://collections.st-andrews.ac.uk/search/?query=ArtistIRN:709967&form=grid&mode=query'>Dossi, Dosso, (1476 - 1542)  (illustrator) </a>,"
+        },
+        {
+            "label": "Record URL",
+            "value": "<a href='https://collections.st-andrews.ac.uk/album-book-portfolio/orlando-furioso/762604'>https://collections.st-andrews.ac.uk/album-book-portfolio/orlando-furioso/762604</a>"
+        },
+        {
+            "label": "Department",
+            "value": "Special Collections - Rare Books"
+        },
+        {
+            "label": "Collection",
+            "value": "<a href='https://collections.st-andrews.ac.uk/collection/digitised-rare-books-teaching-material/761849'>Digitised rare books teaching material</a>"
+        },
+        {
+            "label": "Parent",
+            "value": "<a href='https://collections.st-andrews.ac.uk/collection/digitised-rare-books-teaching-material/761849'>Digitised rare books teaching material</a> (Collection)"
+        },
+        {
+            "label": "Record level",
+            "value": "Album/Book/Portfolio"
+        },
+        {
+            "label": "Conditions of use",
+            "value": "Free of known copyright restrictions. Image supply fees may still apply."
+        },
+        {
+            "label": "Credit line",
+            "value": "Image Courtesy of the University of St Andrews Library, ID For PQ4270.A8B58"
+        },
+        {
+            "label": "IRN",
+            "value": "762604"
+        },
+        {
+            "label": "Image delivery",
+            "value": "Working in partnership with <a href='https://kakadusoftware.com/'>Kakadu</a> to deliver high quality image reproductions via IIIF."
+        }
+    ],
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "viewingHint": "paged",
+            "viewingDirection": "left-to-right",
+            "canvases": [
+                {
+                    "@type": "sc:Canvas",
+                    "@id": "https://collections.st-andrews.ac.uk/762604/manifest/canvas/407375",
+                    "otherContent": [
+                        {
+                            "@id": "https://collections.st-andrews.ac.uk/annotation/762604/407375",
+                            "@type": "sc:AnnotationList"
+                        },
+                        {
+                            "@id": "https://collections.st-andrews.ac.uk/ai/anno/all/762604/407375/4674/6194",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
+                    "label": "001 For PQ4270.A8B58 front board",
+                    "width": 4674,
+                    "height": 6194,
+                    "thumbnail": {
+                        "@id": "https://collections.st-andrews.ac.uk/media/407375/407375.thumb.jpg",
+                        "@type": "dctypes:Image",
+                        "width": 100,
+                        "height": 100
+                    },
+                    "images": [
+                        {
+                            "@type": "dctypes:Image",
+                            "motivation": "sc:painting",
+                            "on": "https://collections.st-andrews.ac.uk/762604/manifest/canvas/407375",
+                            "resource": {
+                                "@type": "dctypes:Image",
+                                "@id": "https://collections.st-andrews.ac.uk/iiif/2/407375~407375/full/full/0/default.jpg",
+                                "format": "image/jpeg",
+                                "width": 4674,
+                                "height": 6194,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://collections.st-andrews.ac.uk/iiif/2/407375~407375",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "sc:Canvas",
+                    "@id": "https://collections.st-andrews.ac.uk/762604/manifest/canvas/407384",
+                    "otherContent": [
+                        {
+                            "@id": "https://collections.st-andrews.ac.uk/annotation/762604/407384",
+                            "@type": "sc:AnnotationList"
+                        },
+                        {
+                            "@id": "https://collections.st-andrews.ac.uk/ai/anno/all/762604/407384/4668/6432",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
+                    "label": "010 For PQ4270.A8B58 leaf * 3 verso",
+                    "width": 4668,
+                    "height": 6432,
+                    "thumbnail": {
+                        "@id": "https://collections.st-andrews.ac.uk/media/407384/407384.thumb.jpg",
+                        "@type": "dctypes:Image",
+                        "width": 100,
+                        "height": 100
+                    },
+                    "images": [
+                        {
+                            "@type": "dctypes:Image",
+                            "motivation": "sc:painting",
+                            "on": "https://collections.st-andrews.ac.uk/762604/manifest/canvas/407384",
+                            "resource": {
+                                "@type": "dctypes:Image",
+                                "@id": "https://collections.st-andrews.ac.uk/iiif/2/407384~407384/full/full/0/default.jpg",
+                                "format": "image/jpeg",
+                                "width": 4668,
+                                "height": 6432,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://collections.st-andrews.ac.uk/iiif/2/407384~407384",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "sc:Canvas",
+                    "@id": "https://collections.st-andrews.ac.uk/762604/manifest/canvas/407385",
+                    "otherContent": [
+                        {
+                            "@id": "https://collections.st-andrews.ac.uk/annotation/762604/407385",
+                            "@type": "sc:AnnotationList"
+                        },
+                        {
+                            "@id": "https://collections.st-andrews.ac.uk/ai/anno/all/762604/407385/4329/6063",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
+                    "label": "Canvas scaled to match other canvas",
+                    "width": 4698,
+                    "height": 6432,
+                    "thumbnail": {
+                        "@id": "https://collections.st-andrews.ac.uk/media/407385/407385.thumb.jpg",
+                        "@type": "dctypes:Image",
+                        "width": 100,
+                        "height": 100
+                    },
+                    "images": [
+                        {
+                            "@type": "dctypes:Image",
+                            "motivation": "sc:painting",
+                            "on": "https://collections.st-andrews.ac.uk/762604/manifest/canvas/407385",
+                            "resource": {
+                                "@type": "dctypes:Image",
+                                "@id": "https://collections.st-andrews.ac.uk/iiif/2/407385~407385/full/full/0/default.jpg",
+                                "format": "image/jpeg",
+                                "width": 4329,
+                                "height": 6063,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://collections.st-andrews.ac.uk/iiif/2/407385~407385",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "sc:Canvas",
+                    "@id": "https://collections.st-andrews.ac.uk/762604/manifest/canvas/408105",
+                    "otherContent": [
+                        {
+                            "@id": "https://collections.st-andrews.ac.uk/annotation/762604/408105",
+                            "@type": "sc:AnnotationList"
+                        },
+                        {
+                            "@id": "https://collections.st-andrews.ac.uk/ai/anno/all/762604/408105/4722/6277",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
+                    "label": "724 For PQ4270.A8B58 back board",
+                    "width": 4722,
+                    "height": 6277,
+                    "thumbnail": {
+                        "@id": "https://collections.st-andrews.ac.uk/media/408105/408105.thumb.jpg",
+                        "@type": "dctypes:Image",
+                        "width": 100,
+                        "height": 100
+                    },
+                    "images": [
+                        {
+                            "@type": "dctypes:Image",
+                            "motivation": "sc:painting",
+                            "on": "https://collections.st-andrews.ac.uk/762604/manifest/canvas/408105",
+                            "resource": {
+                                "@type": "dctypes:Image",
+                                "@id": "https://collections.st-andrews.ac.uk/iiif/2/408105~408105/full/full/0/default.jpg",
+                                "format": "image/jpeg",
+                                "width": 4722,
+                                "height": 6277,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://collections.st-andrews.ac.uk/iiif/2/408105~408105",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
