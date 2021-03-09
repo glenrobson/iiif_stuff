@@ -2,8 +2,6 @@
 
 This is a place for prototyping options for adding 3d to IIIF. They are meant to test out different methodologies to see if they fit the use cases required for 3d. 
 
-## 3D Use Cases
-
 A complete list can be seen in the [IIIF 3D stories use case](https://github.com/IIIF/iiif-3d-stories/issues)  repository but here are few of the base use cases:
 
  * [I want to show a 3d model in a IIIF viewer]() -- no use case

@@ -2,6 +2,15 @@
 
 Example manifest [here](https://glenrobson.github.io/iiif_stuff/3d_prototypes/manifest.json)
 
+## Aims
+
+ * Show that it is possible and useful to link multiple models from distributed places into single canvas/scene
+ * Find out where standards are missing and IIIF extensions are needed
+ * Prototype clients
+ * See if use cases can be achieved 
+
+In some ways this work is similar to early prototyping in the AV work like [this example](https://tomcrane.github.io/fire/) from Tom Crane.
+
 ## Questions
 
  * Is it OK to have scene dimensions e.g. width, height, depth
