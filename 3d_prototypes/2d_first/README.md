@@ -33,8 +33,7 @@ This was first suggested on the call on the 9th of March 2021. The approach here
 
 A full manifest example is available [here](manifest.json). This option would be enough to support the first use case of allowing a 3d Model as can be seen in the example below: 
 
-<iframe src="Astronaut.html"/>
-
-[View full example](Astronaut.html)
-
+<a href="Astronaut.html">
+    <img src="Astronaut_on_canvas.png" alt="Demo showing the Astronaut 3d model on a 2d canvas"/>
+</a>
 
