@@ -1,15 +1,27 @@
-# 3D Prototyping
+# IIIF 3D Prototyping
 
-Example manifest [here](https://glenrobson.github.io/iiif_stuff/3d_prototypes/manifest.json)
+This is a place for prototyping options for adding 3d to IIIF. They are meant to test out different methodologies to see if they fit the use cases required for 3d. 
 
-## Questions
+## 3D Use Cases
 
- * Is it OK to have scene dimensions e.g. width, height, depth
- * 3d `type` from https://www.w3.org/TR/annotation-model/#Classes currently either (Dataset, Image, Video, Sound or Text)
- * Format?
- * Does the target make sense:
+A complete list can be seen in the [IIIF 3D stories use case](https://github.com/IIIF/iiif-3d-stories/issues)  repository but here are few of the base use cases:
 
-```https://glenrobson.github.io/iiif_stuff/3d_prototypes/scene/1?xyzwhd=100,100,100,500,500,500```
+ * [I want to show a 3d model in a IIIF viewer]() -- no use case
+ * [Models from different repositories in a single space]() -- no use case, can we document the broken Vase use case or reconstructing a physical room with different objects?
+ * [Place two different models into a single space](https://github.com/IIIF/iiif-3d-stories/issues/6)
+ * [Save and share camera positions](https://github.com/IIIF/iiif-3d-stories/issues/5)
+ * [Defining Initial View Position](https://github.com/IIIF/iiif-3d-stories/issues/4)
+ * [Support Annotation](https://github.com/IIIF/iiif-3d-stories/issues/3)
+ * [Consistent Unit Scale](https://github.com/IIIF/iiif-3d-stories/issues/2)
 
-Allows you to scale a model into the scene. Note z and d (for depth) don't exist in [media-frags](https://www.w3.org/TR/media-frags/) specifications. 
+## Approaches
 
+One of the first things we need to decide is how the 3d world meets IIIF. As discussed in the [3D Problem Space](IIIF3d_problem_space.pdf) presentation, the IIIF presentation API has a concept of a [Canvas](https://iiif.io/api/presentation/3.0/#53-canvas) which images and video are painted on to. A IIIF canvas is defined as:
+
+"The Canvas represents an individual page or view and acts as a central point for assembling the different content resources that make up the display"
+
+This is a core part of IIIF and for 3d to fit with IIIF we need to find a way for a canvas to support 3d. Currently IIIF canvas has three dimensions; a width, height and time. Three approaches have been discussed and links to prototypes and further discussions can be found below:
+
+ * [2d first - paint a 3d object on to a 2d canvas](2d_first/)
+ * [3d first - add a `z` dimension to the canvas](3d_first/)
+ * Viewport as a canvas 
