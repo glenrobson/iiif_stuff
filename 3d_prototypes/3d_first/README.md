@@ -98,6 +98,6 @@ As the canvas would now have 3 dimensions plus time it would be possible to do a
 
 ## Consistent Unit Scale
 
-By converting the annotation body dimensions to the canvas dimensions you can do scaling. More investigation is required to see if the size units in gtlf and other formats are interoperable otherwise clients or the JSON may need to help be setting the scale of the source model. 
+By converting the annotation body dimensions to the canvas dimensions you can do scaling. More investigation is required to see if the size units in gtlf and other formats are interoperable otherwise clients or the JSON may need to help by setting the scale of the source model. 
 
-Also issue on whether a bounding cube is acceptable to the IIIF 3d community. There may be ways to do the scaling with unbounded axis but some sort of scale would have to be thought about. 
+Also issue on whether a bounding cube is acceptable to the IIIF 3d community. There may be ways to do the scaling with unbounded axis but some sort of consistent scale would have to be thought about. 
