@@ -1,5 +1,5 @@
 # 2D First Approach
-[3D Prototyping](../)
+[Back to 3D Prototyping](../)
 
 This was first suggested on the call on the 9th of March 2021. The approach here is to leave the canvas with three dimensions and treat the 3d object as a discreet object which can be painted on to the canvas. The canvas would look as follows:
 
@@ -39,6 +39,7 @@ In this example the 3d model is painted onto the canvas and fills the full width
 This type of manifest could be shown in a viewer like the following demo: 
 
 <a href="Astronaut.html">
+    <span style="display: block; margin-left: auto; margin-right: auto;">Astronaut.html</span>
     <img src="Astronaut_on_canvas.png" alt="Demo showing the Astronaut 3d model on a 2d canvas" style="width: 400px; display: block; margin-left: auto; margin-right: auto;"/>
 </a>
 
@@ -49,12 +50,14 @@ and would solve the first use case of allowing a IIIF viewer to show a 3d model.
 It could in a way handle brining together two models from different locations. This could be achieved in a similar way to how IIIF can draw images from different repositories. In the following example the canvas has two annotations one for each model. The first model (annotation 1) is the Astronaut model shown earlier and the second model (annotation 2) is stored locally but is downloaded from [SketchFab](https://skfb.ly/6SWEH). The difficulty is where to target or place the two models on the canvas. The example below draws the two models side by side on the canvas. See the [example manifest](side_by_side.json) and the demo below:
 
 <a href="side_by_side.html">
+    <span style="display: block; margin-left: auto; margin-right: auto;">side_by_side.html</span>
     <img src="side_by_side.png" alt="Demo showing the 2 3d models on a single 2d canvas" style="width: 400px; display: block; margin-left: auto; margin-right: auto;"/>
 </a>
 
 Drawing two 3d models on to a 2d canvas has a number of issues. Because the 3d models are separate containers its not possible to put the IIIF model in the Astronaut model which means you couldn't handle the reconstructing Vase use case or the room reconstruction use case. Both of the models are also controlled independently and so you can't spin round to see the back of the composition. A demonstration of how this would look is below. In this example the IIIF model has been placed behind the Astronaut and to give the illusion of depth it has been made smaller. As they are both separate models the are controlled separately so spin independently.
 
 <a href="iiif_behind.html">
+    <span style="display: block; margin-left: auto; margin-right: auto;">iiif_behind.html</span>
     <img src="iiif_behind.png" alt="Demo showing the 2 3d models on a single 2d canvas with the IIIF logo in the background" style="width: 400px; display: block; margin-left: auto; margin-right: auto;"/>
 </a>
 
