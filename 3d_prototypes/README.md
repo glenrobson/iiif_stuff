@@ -1,6 +1,6 @@
 # IIIF 3D Prototyping
 
-This is a place for prototyping options for adding 3d to IIIF. They are meant to test out different methodologies to see if they fit the use cases required for 3d. 
+This is a place for prototyping options for adding 3d to IIIF. They are meant to test out different methodologies to see if they fit the use cases required for 3d. In some ways this work is similar to early prototyping in the AV work like [this example](https://tomcrane.github.io/fire/) from Tom Crane.
 
 A complete list can be seen in the [IIIF 3D stories use case](https://github.com/IIIF/iiif-3d-stories/issues)  repository but here are few of the base use cases:
 
