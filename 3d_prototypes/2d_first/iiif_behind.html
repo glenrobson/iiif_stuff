@@ -36,16 +36,17 @@
                 top: 10px;
                 width: 196px;
                 height: 396px;
-                left: 10px;
+                left: 100px;
             }
 
             #iiif_logo {
                 border: 1px black dashed;
                 position: absolute;
                 top: 10px;
-                left: 209px;
+                left: 100px;
                 width: 197px;
-                height: 396px;
+                height: 200px;
+                z-index: -1;
             }
 
         </style>
@@ -55,8 +56,6 @@
 
         <div id="canvas">
             <span id="label" class="label">Canvas</span>
-            <span id="anno1" class="label">Annotation 1</span>
-            <span id="anno2" class="label">Annotation 2</span>
             <model-viewer id="Astronaut" src="https://modelviewer.dev/shared-assets/models/Astronaut.glb" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
             <model-viewer id="iiif_logo" src="../models/iiif.gtlf" alt="IIIF 3d Logo" auto-rotate camera-controls></model-viewer>
         </div>    
