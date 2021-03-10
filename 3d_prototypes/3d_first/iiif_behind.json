@@ -1,0 +1,56 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://glenrobson.github.io/iiif_stuff/3d_prototypes/3d_first/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Image 1"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/3d_prototypes/3d_first/scene/1",
+      "type": "Canvas",
+      "height": 1000,
+      "width": 1000,
+      "depth": 1000,
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/3d_prototypes/3d_first/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/3d_prototypes/3d_first/annotations/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
+                "type": "Dataset",
+                "format": "model/gltf-binary",
+                "height": 500, 
+                "width": 500,
+                "depth": 500 
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/3d_prototypes/3d_first/scene/1?xyzwhd=0,-1,0,500,500,500"
+            },
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/3d_prototypes/3d_first/annotations/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
+                "type": "Dataset",
+                "format": "model/gltf-binary",
+                "height": 500, 
+                "width": 500,
+                "depth": 500 
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/3d_prototypes/3d_first/scene/1?xyzwhd=0,0,-5,250,250,250"
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}
