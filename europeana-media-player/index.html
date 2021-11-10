@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Europeana Media Player</title>
+
+        <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery.ui.core.css"></link>
+        <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery.ui.slider.css"></link>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+        <script src="https://code.jquery.com/ui/1.10.1/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/2.9.3/dash.all.min.js" type="text/javascript"></script>
+
+        <script src="europeana-media-player.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <script>
+            //const EuropeanaMediaPlayer = require("europeanamediaplayer");
+            // From Getty code: http://www.getty.edu/art/collection/static/viewers/mirador/?manifest=https://data.getty.edu/museum/api/iiif/1895/manifest.json
+            function getURLParameter(param) {
+                if(typeof(param) == "string" && param.length > 0) {
+                    if(typeof(window.location.search) == "string" && window.location.search.length > 0) {
+                        var _results = new RegExp(param + "=([^&]*)", "i").exec(window.location.search);
+                        if(typeof(_results) == "object" && _results !== null && typeof(_results.length) == "number" && _results.length > 0 && _results[1]) {
+                            if(typeof(_results[1]) == "string" && _results[1].length > 0) {
+                                return unescape(_results[1]);
+                            }
+                        }
+                    }
+                }
+                return null;
+            }
+
+            var player = new EuropeanaMediaPlayer(document.body, { 
+                manifest: getURLParameter("iiif-content")
+            });
+        </script>
+    </body>
+</html>
