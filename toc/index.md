@@ -14,7 +14,7 @@ From: https://training.iiif.io/iiif-bl-workshop/day-three/ranges/
  * [training-toc.json](https://iiif-test.github.io/BL-Nov-2021/manifests/training-toc.json)
  * Doesn't work, shows the introduction twice and only second one works: [UV](https://uv-v4.netlify.app/#?manifest=https://iiif-test.github.io/BL-Nov-2021/manifests/training-toc.json)
  * Same issue as above: [Mirador](https://projectmirador.org/embed/?iiif-content=https://iiif-test.github.io/BL-Nov-2021/manifests/training-toc.json)
- * Works in Mirador 2: http://iiif.gdmrdigital.com/mirador/index.html
+ * Works in Mirador 2: [http://iiif.gdmrdigital.com/mirador/index.html](http://iiif.gdmrdigital.com/mirador/index.html)
 
 
 ```
@@ -44,7 +44,7 @@ From: https://training.iiif.io/iiif-bl-workshop/day-three/ranges/
  * [manifest2.json](https://hwithington.github.io/IIIF-Training/manifests/manifest2.json)
  * [UV](https://uv-v4.netlify.app/#?manifest=https://hwithington.github.io/IIIF-Training/manifests/manifest2.json) 
  * [Mirador](https://projectmirador.org/embed/?iiif-content=https://hwithington.github.io/IIIF-Training/manifests/manifest2.json)
- * Works in Mirador 2: http://iiif.gdmrdigital.com/mirador/index.html
+ * Works in Mirador 2: [http://iiif.gdmrdigital.com/mirador/index.html](http://iiif.gdmrdigital.com/mirador/index.html)
 
 TOC Structure:
  *  Intro - not shown at all in any of the viewers
@@ -112,7 +112,7 @@ structures": [
  * [manifest3.json](https://hwithington.github.io/IIIF-Training/manifests/manifest3.json)
  * [UV](https://uv-v4.netlify.app/#?manifest=https://hwithington.github.io/IIIF-Training/manifests/manifest3.json)
  * [Mirador](https://projectmirador.org/embed/?iiif-content=https://hwithington.github.io/IIIF-Training/manifests/manifest3.json)
- * Doesn't work in Mirador 2: http://iiif.gdmrdigital.com/mirador/index.html
+ * Doesn't work in Mirador 2: [http://iiif.gdmrdigital.com/mirador/index.html](http://iiif.gdmrdigital.com/mirador/index.html)
 
 ```
 structures": [
@@ -155,7 +155,7 @@ structures": [
  * [manifest.json](https://iiif.wellcomecollection.org/presentation/v2/b18035723)
  * [UV](http://universalviewer.io/examples/#?c=&m=&s=&cv=&manifest=https%3A%2F%2Fwellcomelibrary.org%2Fiiif%2Fb18035723%2Fmanifest&xywh=-1336%2C-197%2C5240%2C3936)
  * [Mirador](https://projectmirador.org/embed/?iiif-content=https://iiif.wellcomecollection.org/presentation/v2/b18035723)   
- * Works in Mirador 2: http://iiif.gdmrdigital.com/mirador/index.html
+ * Works in Mirador 2: [http://iiif.gdmrdigital.com/mirador/index.html](http://iiif.gdmrdigital.com/mirador/index.html)
 
 ```
 "structures": [
@@ -195,7 +195,7 @@ structures": [
  * [toc.json](https://glenrobson.github.io/iiif_stuff/toc/toc-example.json)
  * [UV](https://uv-v4.netlify.app/#?manifest=https://glenrobson.github.io/iiif_stuff/toc/toc-example.json)
  * [Mirador](https://projectmirador.org/embed/?iiif-content=https://glenrobson.github.io/iiif_stuff/toc/toc-example.json)
- * Works in Mirador 2: http://iiif.gdmrdigital.com/mirador/index.html
+ * Works in Mirador 2: [http://iiif.gdmrdigital.com/mirador/index.html](http://iiif.gdmrdigital.com/mirador/index.html)
 
 Desired structure:
 
