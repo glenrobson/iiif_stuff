@@ -11,7 +11,7 @@ There are various examples below including:
 
 ## Example from the training
 Latest version from training: https://training.iiif.io/iiif-bl-workshop/day-three/ranges/
- * [new-training-toc.json](https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
+ * [new_training_toc.json](https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
  * [UV](https://uv-v4.netlify.app/#?manifest=https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
  * [Mirador](https://projectmirador.org/embed/?iiif-content=https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
  * [Miradro2](http://iiif.gdmrdigital.com/mirador/index.html)
