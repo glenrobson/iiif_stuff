@@ -10,7 +10,13 @@ There are various examples below including:
  * A hierarchy with three levels using the `ranges` method which works on Mirador 2, Mirador 3 and the UV
 
 ## Example from the training
-From: https://training.iiif.io/iiif-bl-workshop/day-three/ranges/
+Latest version from training: https://training.iiif.io/iiif-bl-workshop/day-three/ranges/
+ * [new-training-toc.json](https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
+ * [UV](https://uv-v4.netlify.app/#?manifest=https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
+ * [Mirador](https://projectmirador.org/embed/?iiif-content=https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
+ * [Miradro2](http://iiif.gdmrdigital.com/mirador/index.html)
+
+Previous version from: https://training.iiif.io/iiif-bl-workshop/day-three/ranges/
  * [training-toc.json](https://iiif-test.github.io/BL-Nov-2021/manifests/training-toc.json)
  * Doesn't work, shows the introduction twice and only second one works: [UV](https://uv-v4.netlify.app/#?manifest=https://iiif-test.github.io/BL-Nov-2021/manifests/training-toc.json)
  * Same issue as above: [Mirador](https://projectmirador.org/embed/?iiif-content=https://iiif-test.github.io/BL-Nov-2021/manifests/training-toc.json)

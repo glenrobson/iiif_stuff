@@ -1,0 +1,160 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json",
+    "@type": "sc:Manifest",
+    "label": "BL Newspapers",
+    "service": {
+        "profile": "http://iiif.io/api/search/0/search",
+        "@id": "https://dev.gdmrdigital.com/search-api/1240244679/117916504781134219955/ff95469ebfadf8b7d8e2b8a9cdbac1b8/search",
+        "@context": "http://iiif.io/api/search/0/context.json"
+    },
+    "metadata": [],
+    "description": [
+        {
+            "@value": "From https://eap.bl.uk/archive-file/EAP922-1-5-63 and https://eap.bl.uk/archive-file/EAP922-1-5-54",
+            "@language": "en"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "[Click to edit attribution]",
+    "sequences": [
+        {
+            "@id": "http://a329e2c1-9a65-4b10-acaa-49a06f2fed7b",
+            "@type": "sc:Sequence",
+            "label": [
+                {
+                    "@value": "Normal Sequence",
+                    "@language": "en"
+                }
+            ],
+            "canvases": [
+                {
+                    "@id": "http://c96404a2-4545-4246-9a8b-8f90f0fa8706",
+                    "@type": "sc:Canvas",
+                    "label": "A page from Hindoo Patriot",
+                    "height": 5616,
+                    "width": 3744,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://05dc9451-dc26-4192-b644-e2e744641299",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.eap.bl.uk/EAP922/EAP922_1_5_63/1.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.eap.bl.uk/EAP922/EAP922_1_5_63/1.jp2",
+                                    "profile": [
+                                        "http://iiif.io/api/image/2/level1.json",
+                                        {
+                                            "formats": [
+                                                "jpg"
+                                            ],
+                                            "qualities": [
+                                                "native",
+                                                "color",
+                                                "gray"
+                                            ],
+                                            "supports": [
+                                                "regionByPct",
+                                                "regionSquare",
+                                                "sizeByForcedWh",
+                                                "sizeByWh",
+                                                "sizeAboveFull",
+                                                "rotationBy90s",
+                                                "mirroring"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "height": 5616,
+                                "width": 3744
+                            },
+                            "on": "http://c96404a2-4545-4246-9a8b-8f90f0fa8706"
+                        }
+                    ],
+                    "otherContent": [
+                        {
+                            "@id": "https://iiif-test.github.io/BL-Nov-2021/annotations/annotations1.json",
+                            "@type": "sc:AnnotationList",
+                            "label": "My fantastic annotations"
+                        }
+                    ],
+                    "related": ""
+                },
+                {
+                    "@id": "http://164799eb-2304-4b4a-aac4-6e13357fb6ad",
+                    "@type": "sc:Canvas",
+                    "label": "A page from the The Statesman and Friend of India",
+                    "height": 5292,
+                    "width": 3528,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://270e2215-7c6e-4638-98ad-af1a84a49e2b",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.eap.bl.uk/EAP922/EAP922_1_5_54/1.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.eap.bl.uk/EAP922/EAP922_1_5_54/1.jp2",
+                                    "profile": [
+                                        "http://iiif.io/api/image/2/level1.json",
+                                        {
+                                            "formats": [
+                                                "jpg"
+                                            ],
+                                            "qualities": [
+                                                "native",
+                                                "color",
+                                                "gray"
+                                            ],
+                                            "supports": [
+                                                "regionByPct",
+                                                "regionSquare",
+                                                "sizeByForcedWh",
+                                                "sizeByWh",
+                                                "sizeAboveFull",
+                                                "rotationBy90s",
+                                                "mirroring"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "height": 5292,
+                                "width": 3528
+                            },
+                            "on": "http://164799eb-2304-4b4a-aac4-6e13357fb6ad"
+                        }
+                    ],
+                    "related": ""
+                }
+            ]
+        }
+    ],
+    "structures": [
+        {
+            "@id": "http://example.org/iiif/book1/range/top",
+            "@type": "sc:Range",
+            "label": "Table of Content",
+            "viewingHint": "top",
+            "ranges": [
+                "http://example.org/iiif/book1/range/intro"
+            ]
+        },
+        {
+            "@id": "http://example.org/iiif/book1/range/intro",
+            "@type": "sc:Range",
+            "label": "Introduction",
+            "canvases": [
+                "http://6afb7742-37a5-4e91-8c76-01260b36a557"
+            ]
+        }
+    ]
+}
