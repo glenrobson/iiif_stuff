@@ -12,10 +12,31 @@ There are various examples below including:
 ## Example from the training
 Latest version from training: https://training.iiif.io/iiif-bl-workshop/day-three/ranges/
  * [new_training_toc.json](https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
- * [UV](https://uv-v4.netlify.app/#?manifest=https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
- * [Mirador](https://projectmirador.org/embed/?iiif-content=https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
- * [Miradro2](http://iiif.gdmrdigital.com/mirador/index.html)
+ * Doesn't work in [uv4](https://uv-v4.netlify.app/#?manifest=https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json) as uv4 doesn't seem to show any TOCs but works in [uv3](https://uv-v3.netlify.app/#?manifest=https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
+ * Works in [Mirador3](https://projectmirador.org/embed/?iiif-content=https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
+ * Works in [Miradro2](http://iiif.gdmrdigital.com/mirador/index.html)
 
+```
+"structures": [
+    {
+        "@id": "http://example.org/iiif/book1/range/top",
+        "@type": "sc:Range",
+        "label": "Table of Content",
+        "viewingHint": "top",
+        "ranges": [
+            "http://example.org/iiif/book1/range/intro"
+        ]
+    },
+    {
+        "@id": "http://example.org/iiif/book1/range/intro",
+        "@type": "sc:Range",
+        "label": "Introduction",
+        "canvases": [
+            "http://164799eb-2304-4b4a-aac4-6e13357fb6ad"
+        ]
+    }
+]
+```
 Previous version from: https://training.iiif.io/iiif-bl-workshop/day-three/ranges/
  * [training-toc.json](https://iiif-test.github.io/BL-Nov-2021/manifests/training-toc.json)
  * Doesn't work, shows the introduction twice and only second one works: [UV](https://uv-v4.netlify.app/#?manifest=https://iiif-test.github.io/BL-Nov-2021/manifests/training-toc.json)
