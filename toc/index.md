@@ -12,7 +12,7 @@ There are various examples below including:
 ## Example from the training
 Latest version from training: https://training.iiif.io/iiif-bl-workshop/day-three/ranges/
  * [new_training_toc.json](https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
- * Doesn't work in [uv4](https://uv-v4.netlify.app/#?manifest=https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json) as uv4 doesn't seem to show any TOCs but works in [uv3](https://uv-v3.netlify.app/#?manifest=https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
+ * Works in [uv4](https://uv-v4.netlify.app/#?manifest=https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json) and [uv3](https://uv-v3.netlify.app/#?manifest=https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
  * Works in [Mirador3](https://projectmirador.org/embed/?iiif-content=https://glenrobson.github.io/iiif_stuff/toc/new_training_toc.json)
  * Works in [Mirador2](http://iiif.gdmrdigital.com/mirador/index.html)
 
