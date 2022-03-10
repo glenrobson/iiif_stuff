@@ -2,7 +2,6 @@
 
 import json 
 from urllib import request
-from urllib.parse import urlparse
 import os
 import base64
 
