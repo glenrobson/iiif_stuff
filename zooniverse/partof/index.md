@@ -68,6 +68,8 @@ Looking at the edited [manifest](manifest.json) in Mirador it seems to still wor
       });
 </script>      
 
+<br/>
+
 This type of annotation list should also work with another IIIF tool called [Annona](https://ncsu-libraries.github.io/annona/) which is really good for presenting your annotations. Unfortunately it doesn't look like it currently supports this form of annotation. Annona did support the version 2 version of this annotation structure and it means Annona can work with just the annotation page without also being supplied with the manifest. 
 
 <script src="https://ncsu-libraries.github.io/annona/dist/annona.js"></script>
