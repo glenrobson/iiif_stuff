@@ -9,3 +9,4 @@ IIIF Examples and useful code
  * [image_scripts](image_scripts/) - Image conversion helper scripts
  * [standalone-iiif](standalone-iiif/) - Helper script to update the ID in a level0 IIIF image
  * [Collection testing](collections/) - Testing collections with viewers
+ * [Zooniverse Annotations](zooniverse/) - Zooniverse annotations
