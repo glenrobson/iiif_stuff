@@ -1,6 +1,55 @@
 # Zooniverse Testing - partOf
 
-I created [this script](https://github.com/glenrobson/iiif_stuff/blob/master/zooniverse/partof/addPartOf.py) to add a link from the annotation to the Manifest. This script uses the annotations generated in the [add ID step](../with_id). Adding a link from the annotation to the Manifest can be really helpful as it allows annotation consumers to get access to the image underneath the annotation as it can't use the canvas id because it doesn't necessarily resolve. 
+I created [this script](https://github.com/glenrobson/iiif_stuff/blob/master/zooniverse/partof/addPartOf.py) to add a link from the annotation to the Manifest. This script uses the annotations generated in the [add ID step](../with_id). 
+
+Adding a link from the annotation to the Manifest can be really helpful as it allows annotation consumers to get access to the image underneath the annotation as it can't use the canvas id because it doesn't necessarily resolve. The link to the manifest is added to the target and the original annotation looked like this:
+
+```
+{
+    "id": "https://glenrobson.github.io/iiif_stuff/zooniverse/with_id/79",
+    "type": "Annotation",
+    "motivation": "tagging",
+    "body": {
+        "format": "text/plain",
+        "language": "en",
+        "type": "TextualBody",
+        "value": "Rochester, or, King Charles the Second's Merry Days."
+    },
+    "target": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100022589176.0x0001c3#xywh=570,1472,1814,314"
+}
+```
+
+and with the link back to the manifest it looks like:
+
+```
+{
+    "id": "https://glenrobson.github.io/iiif_stuff/zooniverse/with_id/79",
+    "type": "Annotation",
+    "motivation": "tagging",
+    "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "language": "en",
+        "value": "Rochester, or, King Charles the Second's Merry Days."
+    },
+    "target": {
+        "type": "SpecificResource",
+        "source": {
+            "id": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100022589176.0x0001c3",
+            "type": "Canvas",
+            "partOf": [{
+                    "id": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100022589176.0x000002/manifest.json",
+                    "type": "Manifest"
+            }]
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=570,1472,1814,314"
+        }
+    }
+}
+```
 
 Looking at the edited [manifest](manifest.json) in Mirador it seems to still work OK:
 
@@ -19,7 +68,7 @@ Looking at the edited [manifest](manifest.json) in Mirador it seems to still wor
       });
 </script>      
 
-This type of annotation list should also work with another IIIF tool called [Annona](https://ncsu-libraries.github.io/annona/) which is really good for presenting your annotations. Unfortunately it doesn't look like it currently supports this form of annotation. Annona did support the version 2 version of this annotation structure. 
+This type of annotation list should also work with another IIIF tool called [Annona](https://ncsu-libraries.github.io/annona/) which is really good for presenting your annotations. Unfortunately it doesn't look like it currently supports this form of annotation. Annona did support the version 2 version of this annotation structure and it means Annona can work with just the annotation page without also being supplied with the manifest. 
 
 <script src="https://ncsu-libraries.github.io/annona/dist/annona.js"></script>
 <link rel="stylesheet" type="text/css" href="https://ncsu-libraries.github.io/annona/dist/annona.css">
