@@ -1,6 +1,6 @@
 # Zooniverse Testing - with_ids
 
-I created [this script](https://github.com/glenrobson/iiif_stuff/blob/master/zooniverse/with_id/addIds.py) to add ids to all of the annotations. This script uses the annotations generated in the [split step](../split).
+I created [this script](https://github.com/glenrobson/iiif_stuff/blob/master/zooniverse/with_id/addIds.py) to add ids to all of the annotations. This script uses the annotations generated in the [split step](../split). It looks like the unique IDs are important for being able to click on the boxes and getting the panel annotations to be highlighted. 
 
 Looking at the edited [manifest](manifest.json) in Mirador:
 
