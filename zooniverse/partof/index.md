@@ -1,8 +1,8 @@
 # Zooniverse Testing - partOf
 
-I created [this script](https://github.com/glenrobson/iiif_stuff/blob/master/zooniverse/partof/addPartOf.py) to add ids to all of the annotations. This script uses the annotations generated in the [add ID step](../with_id). 
+I created [this script](https://github.com/glenrobson/iiif_stuff/blob/master/zooniverse/partof/addPartOf.py) to add a link from the annotation to the Manifest. This script uses the annotations generated in the [add ID step](../with_id). Adding a link from the annotation to the Manifest can be really helpful as it allows annotation consumers to get access to the image underneath the annotation as it can't use the canvas id because it doesn't necessarily resolve. 
 
-Looking at the edited [manifest](manifest.json) in Mirador:
+Looking at the edited [manifest](manifest.json) in Mirador it seems to still work OK:
 
 <div id="mirador" style="width: 100%; height: calc(100vh - 3px); position: relative;"></div>
 <script type='text/javascript' src='https://unpkg.com/mirador@latest/dist/mirador.min.js'></script>
@@ -19,7 +19,7 @@ Looking at the edited [manifest](manifest.json) in Mirador:
       });
 </script>      
 
-This type of annotation list should also work with another IIIF tool:
+This type of annotation list should also work with another IIIF tool called [Annona](https://ncsu-libraries.github.io/annona/) which is really good for presenting your annotations. Unfortunately it doesn't look like it currently supports this form of annotation. Annona did support the version 2 version of this annotation structure. 
 
 <script src="https://ncsu-libraries.github.io/annona/dist/annona.js"></script>
 <link rel="stylesheet" type="text/css" href="https://ncsu-libraries.github.io/annona/dist/annona.css">

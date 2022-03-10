@@ -17,7 +17,11 @@ if __name__ == "__main__":
                     annoPage = json.load(json_file)
                     annoPage['id'] = annoPage['id'].replace(previous_step, this_step)
 
+                    del annoPage['partOf'] # for some reason Annona doesn't like this
+
                     for anno in annoPage['items']:
+                        anno['id'] = anno['id'].replace(previous_step, this_step)
+
                         origTarget = anno['target']
                         (canvasId, fragment) = origTarget.split('#')
 
