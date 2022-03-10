@@ -15,7 +15,7 @@ To make this work I have taken a copy of the BL Manifest:
 ]
 ```
 
-<div id="mirador" style="width:100%, height:500px"></div>
+<div id="mirador" style="width: 100%; height: calc(100vh - 3px); position: relative;"></div>
 <script type='text/javascript' src='https://unpkg.com/mirador@latest/dist/mirador.min.js'></script>
 <script type="text/javascript">
       var miradorInstance = Mirador.viewer({
@@ -23,9 +23,9 @@ To make this work I have taken a copy of the BL Manifest:
         windows: [
             {
                 manifestId: 'https://glenrobson.github.io/iiif_stuff/zooniverse/manifest.json',
-                canvasIndex: 396,
+                canvasId: 'https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100022589176.0x000333',
                 sideBarPanel: 'annotations',
-                sideBarOpen: true,
+                sideBarOpen: true
             }
         ],
       });
