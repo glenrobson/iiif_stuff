@@ -11,7 +11,7 @@ To make this work I have taken a copy of the BL Manifest: https://api.bl.uk/meta
         id: 'mirador',
         windows: [
             {
-                manifestId: 'https://glenrobson.github.io/iiif_stuff/zooniverse/manifest.json'
+                manifestId: 'https://glenrobson.github.io/iiif_stuff/zooniverse/manifest.json',
                 canvasIndex: 396,
                 sideBarPanel: 'annotations',
                 sideBarOpen: true,
