@@ -7,4 +7,5 @@ Scenarios:
  * [Original Annotations](original/)
  * [Annotations split by canvas](split/)
  * [Annotations with id](with_id/)
+ * [Annotations with part of](partof/)
 
