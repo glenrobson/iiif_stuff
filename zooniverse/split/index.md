@@ -1,10 +1,27 @@
 # Zooniverse Testing - annoPage per canvas
 
-I created [this script]() to split the annotations from:
+I created [this script](https://github.com/glenrobson/iiif_stuff/blob/master/zooniverse/split/split.py) to split the annotations from:
 
 [https://zooniverse.github.io/iiif-annotations/annotations/titles/0.json](https://zooniverse.github.io/iiif-annotations/annotations/titles/0.json)
 
-into one file per IIIF canvas and then linked the Manifest [here] to all of the annotation pages. The annotation pages generated are:
+into one file per IIIF canvas and then linked the Manifest [here](manifest.json) to all of the annotation pages. Looking at the edited manifest in Mirador:
+
+<div id="mirador" style="width: 100%; height: calc(100vh - 3px); position: relative;"></div>
+<script type='text/javascript' src='https://unpkg.com/mirador@latest/dist/mirador.min.js'></script>
+<script type="text/javascript">
+      var miradorInstance = Mirador.viewer({
+        id: 'mirador',
+        windows: [
+            {
+                manifestId: 'https://glenrobson.github.io/iiif_stuff/zooniverse/split/manifest.json',
+                sideBarPanel: 'annotations',
+                sideBarOpen: true
+            }
+        ],
+      });
+</script>      
+
+The annotation pages generated are:
 
  * [annoPage-0.json](annoPage-0.json)
  * [annoPage-1.json](annoPage-1.json)
@@ -30,19 +47,3 @@ into one file per IIIF canvas and then linked the Manifest [here] to all of the 
  * [annoPage-21.json](annoPage-21.json)
  * [annoPage-368.json](annoPage-368.json)
 
-and looking at the edited manifest in Mirador:
-
-<div id="mirador" style="width: 100%; height: calc(100vh - 3px); position: relative;"></div>
-<script type='text/javascript' src='https://unpkg.com/mirador@latest/dist/mirador.min.js'></script>
-<script type="text/javascript">
-      var miradorInstance = Mirador.viewer({
-        id: 'mirador',
-        windows: [
-            {
-                manifestId: 'https://glenrobson.github.io/iiif_stuff/zooniverse/split/manifest.json',
-                sideBarPanel: 'annotations',
-                sideBarOpen: true
-            }
-        ],
-      });
-</script>      
