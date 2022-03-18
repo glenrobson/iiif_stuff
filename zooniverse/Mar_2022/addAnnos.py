@@ -23,16 +23,18 @@ def addManifest(manifests, manifestURL):
     manifest = loadJson(manifestURL)
     manifests[manifestURL] = manifest
 
-def addAnnosToCanvas(manifest, annoPageURL):
+def addAnnosToCanvas(manifest, canvasID, annoPageURL):
     canvasNo = 0
     for canvas in manifest['sequences'][0]['canvases']:
         print ('Adding annotations to canvas no: {}'.format(canvasNo))
 
-        # Add link to manifest pointing to annotation page
-        canvas['annotations'] = [{
-            "id": annoPageURL, # add the URL to the annotation page to the manifest
-            "type": "AnnotationPage"
-        }]
+        if canvas['@id'] == canvasID:
+            # Add link to manifest pointing to annotation page
+            canvas['annotations'] = [{
+                "id": annoPageURL, # add the URL to the annotation page to the manifest
+                "type": "AnnotationPage"
+            }]
+            break
 
         canvasNo += 1 
 
@@ -52,7 +54,7 @@ def processAnnoPage(manifests, annoPageURL):
             
             manifest = manifests[manifestURL]
             # Add anno page to canvas
-            addAnnosToCanvas(manifest, annoPageURL)
+            addAnnosToCanvas(manifest, canvas, annoPageURL)
         else:
             print ('Annotation page is empty')
     else:

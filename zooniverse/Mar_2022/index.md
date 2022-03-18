@@ -6,7 +6,7 @@ I created [this script](https://github.com/glenrobson/iiif_stuff/blob/master/zoo
  * and add a link to the AnnotationPage to each canvas.
  * Follow the `next` link to the next AnnotationPage
 
-Looking at the edited [manifest](manifest.json) in Mirador:
+Looking at the edited [manifest](vdc_100022589176.0x000002.json) in Mirador:
 
 <div id="mirador" style="width: 100%; height: calc(100vh - 3px); position: relative;"></div>
 <script type='text/javascript' src='https://unpkg.com/mirador@latest/dist/mirador.min.js'></script>
