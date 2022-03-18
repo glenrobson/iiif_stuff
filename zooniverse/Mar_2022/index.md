@@ -15,7 +15,7 @@ Looking at the edited [manifest](manifest.json) in Mirador:
         id: 'mirador',
         windows: [
             {
-                manifestId: 'https://glenrobson.github.io/iiif_stuff/zooniverse/Mar_2022/manifest.json',
+                manifestId: 'https://glenrobson.github.io/iiif_stuff/zooniverse/Mar_2022/vdc_100022589176.0x000002.json',
                 sideBarPanel: 'annotations',
                 sideBarOpen: true
             }
@@ -25,7 +25,7 @@ Looking at the edited [manifest](manifest.json) in Mirador:
 
 <br/>
 
-Thanks to the fix from [dnoneill](https://github.com/dnoneill) it also works in [Annona](https://ncsu-libraries.github.io/annona/) which is really good for presenting your annotations. 
+Thanks to the fix from [dnoneill](https://github.com/NCSU-Libraries/annona/issues/35) it also works in [Annona](https://ncsu-libraries.github.io/annona/) which is really good for presenting your annotations. 
 
 <script src="https://ncsu-libraries.github.io/annona/dist/annona.js"></script>
 <link rel="stylesheet" type="text/css" href="https://ncsu-libraries.github.io/annona/dist/annona.css">
