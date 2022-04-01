@@ -66,10 +66,10 @@ def processAnnoPage(manifests, annoPageURL, base):
                 dateStr = oldBody['value']
                 try:
                     date = datetime(int(dateStr[0:4]), int(dateStr[4:6]), int(dateStr[6:8]))
-                    
+                    # "value":"<time datetime=\"{}\">{}</time>".format(date.strftime("%Y-%m-%d"),date.strftime("%B, %d %Y")),
                     newBody = {
                         "type":"TextualBody",
-                        "value":"<time datetime=\"{}\">{}</time>".format(date.strftime("%Y-%m-%d"),date.strftime("%B, %d %Y")),
+                        "value":"<b>{}</b>".format(date.strftime("%Y-%m-%d")),
                         "language":"en",
                         "format" : "text/html"
                     }
