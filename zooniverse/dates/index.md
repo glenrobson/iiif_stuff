@@ -41,6 +41,6 @@ Thanks to the fix from [dnoneill](https://github.com/NCSU-Libraries/annona/issue
 <link rel="stylesheet" type="text/css" href="https://ncsu-libraries.github.io/annona/dist/annona.css">
 
 <div id="storyboard">
-<iiif-storyboard annotationlist='https://github.com/glenrobson/iiif_stuff/blob/master/zooniverse/dates/0.json'></iiif-storyboard>
+<iiif-storyboard annotationlist='https://glenrobson.github.io/iiif_stuff/zooniverse/dates/0.json'></iiif-storyboard>
 </div>
 
