@@ -128,7 +128,7 @@ The second image is painted onto a region of the background using the following:
 
 where the numbers after the canvas identifier and # is the x, y, width, height of the location where the image should be painted. 
 
-## Attempt 1 - Fail!
+## Attempt 1 - Fail!
 
 Now we have the regions of the source and destination images we can put it together in a canvas. For the first attempt I am going to try and use the Image link directly to the butterfly:
 
@@ -195,7 +195,7 @@ Unfortunately this doesn't work correctly as although Mirador can work with a ca
       });
 </script>
 
-## Attempt 2 - Fail
+## Attempt 2 - Fail
 
 To truly replicate the Biblissima example above I would need the butterfly to be available as a IIIF image. To do this I have downloaded the [image](https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11/534,31,132,146/132,/!0/default.jpg) and then uploaded it to iiifhosting to create a new IIIF image:
 
