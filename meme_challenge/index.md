@@ -11,13 +11,13 @@ Luckily [Philip Allfrey](https://twitter.com/dr_pda) has already done it in the 
 ## Table of Contents
  * [Step 1 - Finding the images](#step-1---finding-the-images)
  * [Step 2 - Catching the butterfly](#step-2---catching-the-butterfly)
- * [Step 3 - Finding the region to paint the Butterfly](step-3---finding-the-region-to-paint-the-butterfly)
+ * [Step 3 - Finding the region to paint the Butterfly](#step-3---finding-the-region-to-paint-the-butterfly)
  * [Step 4 - Creating the Manifest](step-4---creating-the-manifest)
    * [Attempt 1 - Fail!](#attempt-1---fail)
    * [Attempt 2 - Fail!](#attempt-2---fail)
    * [Attempt 3 - Success!](#attempt-3---success)
    * [Attempt 4 - Fail!](#attempt-4---fail)
- * [Step 5 - Publishing the manifest]()
+ * [Step 5 - Publishing the manifest](#stage-5---publishing-the-manifest)
 
 ## Step 1 - Finding the images
 
@@ -29,7 +29,7 @@ https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Histori
 
 The second meme image is also not available as IIIF. There is a version here from [knowyourmeme.com](https://knowyourmeme.com/memes/is-this-a-pigeon):
 
-https://pbs.twimg.com/media/FUrdyRxX0AkHU1O?format=png&name=small
+[https://pbs.twimg.com/media/FUrdyRxX0AkHU1O?format=png&name=small](https://pbs.twimg.com/media/FUrdyRxX0AkHU1O?format=png&name=small)
 
 but notice the orientation is different in this image to the one in the tweet. In the tweet the butterfly is on the left but in the one above the butterfly is on the right. 
 
@@ -37,11 +37,11 @@ but notice the orientation is different in this image to the one in the tweet. I
 
 Now we have our images the first thing to do is to find the coordinates of the butterfly. To do this I am going to turn the Meme into a IIIF image using [iiifhosting.com](https://iiifhosting.com) which offers 5 free images. This produces this image:
 
-https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11/
+[https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11/](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11)
 
 Next we want to find the region of the butterfly and we can do this using the UCD IIIF image tool:
 
-https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11
+[https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11)
 
 You can use the region editor to find the region:
 
@@ -57,7 +57,7 @@ I've altered the size so it doesn't make the butterfly bigger than the source im
 
 We need to find the coordinates that we want to paint our butterfly on to the BL image. To do this we can again use the UCD region tool:
 
-https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg
+[https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg)
 
 Once we have chosen our region:
 
@@ -65,7 +65,7 @@ Once we have chosen our region:
 
 we can again get the IIIF URL:
 
-https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg/311,248,64,61/800,/0/default.jpg
+[https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg/311,248,64,61/800,/0/default.jpg](https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg/311,248,64,61/800,/0/default.jpg)
 
 and look at the region part of the URL (`/311,248,64,61/`) and this will gives the coordinates to paint our butterfly on the canvas. 
 
@@ -295,11 +295,11 @@ It must be something to do with the size of the Butterfly compared to the region
 
 I found previously that OpenseaDragon and Mirador work well with level0 images so I've uploaded the butterfly to github as separate tiles:
 
-https://github.com/iiif-test/test4/tree/main/images/butterfly
+[https://github.com/iiif-test/test4/tree/main/images/butterfly](https://github.com/iiif-test/test4/tree/main/images/butterfly)
 
 with the following info.json:
 
-https://iiif-test.github.io/test4/images/butterfly/info.json
+[https://iiif-test.github.io/test4/images/butterfly/info.json](https://iiif-test.github.io/test4/images/butterfly/info.json)
 
 and edited the canvas as follows:
 
@@ -445,6 +445,6 @@ As mentioned unfortunately Mirador doesn't support the Image API selector and pa
 
 This is a problem I come across all the time when trying to share a Manifest I've created either for testing or to see what is supported by viewers. This is the main reason I have the [iiif_stuff](https://github.com/glenrobson/iiif_stuff/) GitHub repository. It is configured to run [GitHub Pages](https://pages.github.com/) which luckily provides the CORS headers and also is available over https.  
 
-Another option is to create a public [GIST](https://gist.github.com/). If you copy and paste the Manifest and then click the RAW button it sets the CORS headers correctly. The mime type is text/plain rather than JSON but it seems to work OK in Mirador:
+Another option is to create a public [GIST](https://gist.github.com/glenrobson/680ec73d44238f7b60f46c60e13dfb3f). If you copy and paste the Manifest and then click the RAW button it sets the CORS headers correctly. The mime type is text/plain rather than JSON but it seems to work OK in Mirador:
 
-https://projectmirador.org/embed/?iiif-content=https://gist.githubusercontent.com/glenrobson/680ec73d44238f7b60f46c60e13dfb3f/raw/6927633ccb2f74f301680c9bb4c7fced3d15ee12/meme_working.json
+[https://projectmirador.org/embed/?iiif-content=https://gist.githubusercontent.com/glenrobson/680ec73d44238f7b60f46c60e13dfb3f/raw/6927633ccb2f74f301680c9bb4c7fced3d15ee12/meme_working.json](https://projectmirador.org/embed/?iiif-content=https://gist.githubusercontent.com/glenrobson/680ec73d44238f7b60f46c60e13dfb3f/raw/6927633ccb2f74f301680c9bb4c7fced3d15ee12/meme_working.json)
