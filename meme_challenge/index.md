@@ -6,8 +6,18 @@ So Josh has set me a challenge to look at this tweet:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">ahem! I am WAITING 😤 for someone to make a manifest that uses layers to stitch a butterfly onto this 🦋 <a href="https://t.co/CBbJZ90xWz">https://t.co/CBbJZ90xWz</a></p>&mdash; Camille Villa (@effusivelynerdy) <a href="https://twitter.com/effusivelynerdy/status/1534722776111534083?ref_src=twsrc%5Etfw">June 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-
 Luckily [Philip Allfrey](https://twitter.com/dr_pda) has already done it in the replies but Josh wanted me to have a look to see if there is an easier way... 
+
+## Table of Contents
+ * [Step 1 - Finding the images](#step-1---finding-the-images)
+ * [Step 2 - Catching the butterfly](#step-2---catching-the-butterfly)
+ * [Step 3 - Finding the region to paint the Butterfly](step-3---finding-the-region-to-paint-the-butterfly)
+ * [Step 4 - Creating the Manifest](step-4---creating-the-manifest)
+   * [Attempt 1 - Fail!](#attempt-1---fail)
+   * [Attempt 2 - Fail!](#attempt-2---fail)
+   * [Attempt 3 - Success!](#attempt-3---success)
+   * [Attempt 4 - Fail!](#attempt-4---fail)
+ * [Step 5 - Publishing the manifest]()
 
 ## Step 1 - Finding the images
 
@@ -128,7 +138,7 @@ The second image is painted onto a region of the background using the following:
 
 where the numbers after the canvas identifier and # is the x, y, width, height of the location where the image should be painted. 
 
-## Attempt 1 - Fail!
+### Attempt 1 - Fail!
 
 Now we have the regions of the source and destination images we can put it together in a canvas. For the first attempt I am going to try and use the Image link directly to the butterfly:
 
@@ -195,7 +205,7 @@ Unfortunately this doesn't work correctly as although Mirador can work with a ca
       });
 </script>
 
-## Attempt 2 - Fail
+### Attempt 2 - Fail!
 
 To truly replicate the Biblissima example above I would need the butterfly to be available as a IIIF image. To do this I have downloaded the [image](https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11/534,31,132,146/132,/!0/default.jpg) and then uploaded it to iiifhosting to create a new IIIF image:
 
@@ -281,7 +291,7 @@ Unfortunately this also doesn't work as Mirador/Openseadragon is requesting the 
 
 It must be something to do with the size of the Butterfly compared to the region it is being painted on because in Philips example Mirador requests `https://free.iiifhosting.com/iiif/3c5f5922873148d4f78155f41935437ba4425b703ba3562fcf01776a06b05ccb/full/188,/0/default.jpg` so specifies the sizes as `188,` so that works OK. I think this is a bug with OpenSeadragon as it shouldn't request `max` with a version 2 image as there is no guarantee it will be supported. In fact there is a [bug report](https://github.com/openseadragon/openseadragon/issues/1870) and [fix](https://github.com/openseadragon/openseadragon/pull/1871) in OpenSeaDragon for this issues. It looks like it is fixed in OpenSeaDragon 3.0.0 but Mirador is [currently using 2.4.2](https://github.com/ProjectMirador/mirador/blob/e7ba59a9ab3d0f19a08056b8be06e95ebb7bcd23/package.json#L53).
 
-## Attempt 3 - Success!
+### Attempt 3 - Success!
 
 I found previously that OpenseaDragon and Mirador work well with level0 images so I've uploaded the butterfly to github as separate tiles:
 
@@ -357,7 +367,7 @@ Luckily this does work :D
 
 It should suffer from the same `max` issue as its still a v2 image but for some reason (and maybe because its a level0 image) the following URL is requested `https://iiif-test.github.io/test4/images/butterfly/full/17,/0/default.jpg` which works fine. 
 
-## Attempt 4 - Fail
+### Attempt 4 - Fail!
 
 Unfortunately I know this isn't supported in viewers yet but the ideal solution would be if we could use the two full size images directly and take a region from the Butterfly image and paint it on to the original image from the BL. This is possible using a [segment of an image](https://iiif.io/api/presentation/2.1/#segments) and looks as follows:
 
@@ -431,3 +441,10 @@ As mentioned unfortunately Mirador doesn't support the Image API selector and pa
       });
 </script>
 
+## Stage 5 - Publishing the Manifest
+
+This is a problem I come across all the time when trying to share a Manifest I've created either for testing or to see what is supported by viewers. This is the main reason I have the [iiif_stuff](https://github.com/glenrobson/iiif_stuff/) GitHub repository. It is configured to run [GitHub Pages](https://pages.github.com/) which luckily provides the CORS headers and also is available over https.  
+
+Another option is to create a public [GIST](https://gist.github.com/). If you copy and paste the Manifest and then click the RAW button it sets the CORS headers correctly. The mime type is text/plain rather than JSON but it seems to work OK in Mirador:
+
+https://projectmirador.org/embed/?iiif-content=https://gist.githubusercontent.com/glenrobson/680ec73d44238f7b60f46c60e13dfb3f/raw/6927633ccb2f74f301680c9bb4c7fced3d15ee12/meme_working.json
