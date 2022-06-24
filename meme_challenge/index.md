@@ -12,7 +12,7 @@ Luckily [Philip Allfrey](https://twitter.com/dr_pda) has already done it in the 
  * [Step 1 - Finding the images](#step-1---finding-the-images)
  * [Step 2 - Catching the butterfly](#step-2---catching-the-butterfly)
  * [Step 3 - Finding the region to paint the Butterfly](#step-3---finding-the-region-to-paint-the-butterfly)
- * [Step 4 - Creating the Manifest](step-4---creating-the-manifest)
+ * [Step 4 - Creating the Manifest](#step-4---creating-the-manifest)
    * [Attempt 1 - Fail!](#attempt-1---fail)
    * [Attempt 2 - Fail!](#attempt-2---fail)
    * [Attempt 3 - Success!](#attempt-3---success)
