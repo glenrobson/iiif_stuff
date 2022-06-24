@@ -128,7 +128,7 @@ The second image is painted onto a region of the background using the following:
 
 where the numbers after the canvas identifier and # is the x, y, width, height of the location where the image should be painted. 
 
-## Attempt 1 - Fail
+## Attempt 1 - Fail!
 
 Now we have the regions of the source and destination images we can put it together in a canvas. For the first attempt I am going to try and use the Image link directly to the butterfly:
 
