@@ -10,3 +10,4 @@ IIIF Examples and useful code
  * [standalone-iiif](standalone-iiif/) - Helper script to update the ID in a level0 IIIF image
  * [Collection testing](collections/) - Testing collections with viewers
  * [Zooniverse Annotations](zooniverse/) - Zooniverse annotations
+ * [Meme Challenge](meme_challenge/) - A twitter Meme Challenge

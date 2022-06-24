@@ -1,0 +1,75 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://f90308b7-f822-4471-84ed-23ff0570d648",
+	"@type": "sc:Manifest",
+	"label": "Glen's Meme attempt ",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://4cc47fcb-98fe-466e-af63-8ea63d9ef69b",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://5a4447bb-4685-4d90-867f-824105672a8a",
+					"@type": "sc:Canvas",
+					"label": "Meme",
+					"height": 1435,
+					"width": 1067,
+					"images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "label": "Butterfly",
+                                "@id": "https://free.iiifhosting.com/iiif/53275965f502cf73a071be5813aa6fbe30da35280b3519f878f3efb6f9d1e9ca/full/full/0/default.jpg",
+                                "format": "image/jpeg",
+                                "@type": "dctypes:Image",
+                                "width": 132,
+                                "height": 146,
+                                "service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://free.iiifhosting.com/iiif/53275965f502cf73a071be5813aa6fbe30da35280b3519f878f3efb6f9d1e9ca",
+									"profile": ["http://iiif.io/api/image/2/level1"]
+								}
+                            },
+                            "on": "http://5a4447bb-4685-4d90-867f-824105672a8a#xywh=311,248,64,64"
+                        },
+						{
+							"@id": "http://a5160700-d231-42b0-9255-81c5746138dd",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg",
+									"profile": ["http://iiif.io/api/image/2/level2"]
+								},
+								"height": 1435,
+								"width": 1067
+							},
+							"on": "http://5a4447bb-4685-4d90-867f-824105672a8a"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": []
+}

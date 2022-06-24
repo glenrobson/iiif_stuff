@@ -1,0 +1,95 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://allfrey.co.nz/is-this-a-valid-manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Is this a valid manifest?",
+  "metadata": [
+    {
+      "label": "Creator",
+      "value": "Philip Allfrey"
+    },
+    {
+      "label": "Title",
+      "value": [
+        {
+          "@value": "Is this a valid manifest?",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Created Date",
+      "value": "17 June 2022"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Inspired by <a href=\"https://twitter.com/gundormr/status/1534283103413448707\">a tweet</a>, this manifest superimposes the butterfly from the 'Is this a pigeon' meme onto the IIIF documentation example image",
+      "@language": "en"
+    }
+  ],
+  "attribution": "<a href=\"http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_19_d_iii_f003r\">British Library Royal MS 19 D III, vol. 1, f. 3r</a>.<br/> <a href=\"https://imgflip.com/memetemplate/Is-This-A-Pigeon\">Is this a Pigeon Meme Template</a>",
+  "sequences": [
+    {
+      "@id": "http://e1f996e8-66d5-416e-a4b4-a9e06ef98d7f",
+      "@type": "sc:Sequence",
+      "label": [
+        {
+          "@value": "Normal Sequence",
+          "@language": "en"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "http://9937bc47-8f4f-4a9f-8420-7e3a40cbb435",
+          "@type": "sc:Canvas",
+          "label": "Is this a valid canvas?",
+          "height": 5706,
+          "width": 5213,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://free.iiifhosting.com/iiif/b989f6cb9a9e70b146ef4a8e62af53555560eb0d3113a310bc565a060a0d40d8/anot0.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://free.iiifhosting.com/iiif/3c5f5922873148d4f78155f41935437ba4425b703ba3562fcf01776a06b05ccb/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 375,
+                "height": 375,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://free.iiifhosting.com/iiif/3c5f5922873148d4f78155f41935437ba4425b703ba3562fcf01776a06b05ccb",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://9937bc47-8f4f-4a9f-8420-7e3a40cbb435#xywh=1024,768,375,375"
+            },
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://cb6b5b08-2f8c-4aee-82f5-03e4592e8c01",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/ff139pd0160%252FK90113-43/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/ff139pd0160%252FK90113-43",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "height": 5706,
+                "width": 5213
+              },
+              "on": "http://9937bc47-8f4f-4a9f-8420-7e3a40cbb435"
+            }
+          ],
+          "related": ""
+        }
+      ]
+    }
+  ],
+  "structures": []
+}
