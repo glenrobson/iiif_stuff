@@ -11,3 +11,4 @@ IIIF Examples and useful code
  * [Collection testing](collections/) - Testing collections with viewers
  * [Zooniverse Annotations](zooniverse/) - Zooniverse annotations
  * [Meme Challenge](meme_challenge/) - A twitter Meme Challenge
+ * [Cardiff Alma Testing](alma_cardiff/) - Testing Cardiff Alma Digital Instance
