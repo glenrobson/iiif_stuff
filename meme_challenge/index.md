@@ -12,7 +12,7 @@ Luckily [Philip Allfrey](https://twitter.com/dr_pda) has already done it in the 
  * [Step 1 - Finding the images](#step-1---finding-the-images)
  * [Step 2 - Catching the butterfly](#step-2---catching-the-butterfly)
  * [Step 3 - Finding the region to paint the Butterfly](#step-3---finding-the-region-to-paint-the-butterfly)
- * [Step 4 - Creating the Manifest](step-4---creating-the-manifest)
+ * [Step 4 - Creating the Manifest](#step-4---creating-the-manifest)
    * [Attempt 1 - Fail!](#attempt-1---fail)
    * [Attempt 2 - Fail!](#attempt-2---fail)
    * [Attempt 3 - Success!](#attempt-3---success)
@@ -25,11 +25,11 @@ As Philip found the original [British Library Manuscript](http://www.bl.uk/manus
 
 The Stanford version has been slightly cropped so I'm going to use the Wikipedia version. Wikipedia has an undocumented IIIF image server and details on how to access this image can be found on the [IIIF Guides site](https://guides.iiif.io/guides/wikipedia.org/). The URL to the info.json for this item looks like:
 
-https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg/info.json
+<a href="https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg/info.json">https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg/info.json</a>
 
 The second meme image is also not available as IIIF. There is a version here from [knowyourmeme.com](https://knowyourmeme.com/memes/is-this-a-pigeon):
 
-[https://pbs.twimg.com/media/FUrdyRxX0AkHU1O?format=png&name=small](https://pbs.twimg.com/media/FUrdyRxX0AkHU1O?format=png&name=small)
+<a href="https://pbs.twimg.com/media/FUrdyRxX0AkHU1O?format=png&name=small">https://pbs.twimg.com/media/FUrdyRxX0AkHU1O?format=png&name=small</a>
 
 but notice the orientation is different in this image to the one in the tweet. In the tweet the butterfly is on the left but in the one above the butterfly is on the right. 
 
@@ -37,17 +37,19 @@ but notice the orientation is different in this image to the one in the tweet. I
 
 Now we have our images the first thing to do is to find the coordinates of the butterfly. To do this I am going to turn the Meme into a IIIF image using [iiifhosting.com](https://iiifhosting.com) which offers 5 free images. This produces this image:
 
-[https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11/](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11)
+<a href="https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11/">https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11/</a>
 
 Next we want to find the region of the butterfly and we can do this using the UCD IIIF image tool:
 
-[https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11)
+<a href="https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11">https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11</a>
 
 You can use the region editor to find the region:
 
 ![UCD cropping tool](img/ucd.png)
 
 Then scroll down and it will tell you the IIIF URL:
+
+https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11/534,31,132,146/132,/!0/default.jpg
 
 <a href="https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11/534,31,132,146/132,/!0/default.jpg"><img src="https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11/534,31,132,146/132,/!0/default.jpg" /></a>
 
@@ -57,7 +59,7 @@ I've altered the size so it doesn't make the butterfly bigger than the source im
 
 We need to find the coordinates that we want to paint our butterfly on to the BL image. To do this we can again use the UCD region tool:
 
-[https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg)
+<a href="https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg">https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg</a>
 
 Once we have chosen our region:
 
@@ -65,7 +67,7 @@ Once we have chosen our region:
 
 we can again get the IIIF URL:
 
-[https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg/311,248,64,61/800,/0/default.jpg](https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg/311,248,64,61/800,/0/default.jpg)
+<a href="https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg/311,248,64,61/800,/0/default.jpg">https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=The_Creation_-_Bible_Historiale_(c.1411),_vol.1,_f.3_-_BL_Royal_MS_19_D_III.jpg/311,248,64,61/800,/0/default.jpg</a>
 
 and look at the region part of the URL (`/311,248,64,61/`) and this will gives the coordinates to paint our butterfly on the canvas. 
 
@@ -142,7 +144,7 @@ where the numbers after the canvas identifier and # is the x, y, width, height o
 
 Now we have the regions of the source and destination images we can put it together in a canvas. For the first attempt I am going to try and use the Image link directly to the butterfly:
 
-https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11/534,31,132,146/132,/!0/default.jpg
+<a href="https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11/534,31,132,146/132,/!0/default.jpg">https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11/534,31,132,146/132,/!0/default.jpg</a>
 
 Although this is a IIIF image the IIIF image is for the whole Meme not just the butterfly. Using the URL above I _should_ be able to treat the URL as a normal jpg and paint that onto the canvas in the correct position:
 
@@ -209,7 +211,7 @@ Unfortunately this doesn't work correctly as although Mirador can work with a ca
 
 To truly replicate the Biblissima example above I would need the butterfly to be available as a IIIF image. To do this I have downloaded the [image](https://free.iiifhosting.com/iiif/911b5db417254ff6a08ac79a80a97a45f04fdc6dd9424d48170e57150c8e2b11/534,31,132,146/132,/!0/default.jpg) and then uploaded it to iiifhosting to create a new IIIF image:
 
-https://free.iiifhosting.com/iiif/53275965f502cf73a071be5813aa6fbe30da35280b3519f878f3efb6f9d1e9ca/
+<a href="https://free.iiifhosting.com/iiif/53275965f502cf73a071be5813aa6fbe30da35280b3519f878f3efb6f9d1e9ca/">https://free.iiifhosting.com/iiif/53275965f502cf73a071be5813aa6fbe30da35280b3519f878f3efb6f9d1e9ca/</a>
 
 Now if I edit my canvas to include this service:
 
@@ -295,11 +297,11 @@ It must be something to do with the size of the Butterfly compared to the region
 
 I found previously that OpenseaDragon and Mirador work well with level0 images so I've uploaded the butterfly to github as separate tiles:
 
-[https://github.com/iiif-test/test4/tree/main/images/butterfly](https://github.com/iiif-test/test4/tree/main/images/butterfly)
+<a href="https://github.com/iiif-test/test4/tree/main/images/butterfly">https://github.com/iiif-test/test4/tree/main/images/butterfly</a>
 
 with the following info.json:
 
-[https://iiif-test.github.io/test4/images/butterfly/info.json](https://iiif-test.github.io/test4/images/butterfly/info.json)
+<a href="https://iiif-test.github.io/test4/images/butterfly/info.json">https://iiif-test.github.io/test4/images/butterfly/info.json</a>
 
 and edited the canvas as follows:
 
@@ -447,4 +449,4 @@ This is a problem I come across all the time when trying to share a Manifest I'v
 
 Another option is to create a public [GIST](https://gist.github.com/glenrobson/680ec73d44238f7b60f46c60e13dfb3f). If you copy and paste the Manifest and then click the RAW button it sets the CORS headers correctly. The mime type is text/plain rather than JSON but it seems to work OK in Mirador:
 
-[https://projectmirador.org/embed/?iiif-content=https://gist.githubusercontent.com/glenrobson/680ec73d44238f7b60f46c60e13dfb3f/raw/6927633ccb2f74f301680c9bb4c7fced3d15ee12/meme_working.json](https://projectmirador.org/embed/?iiif-content=https://gist.githubusercontent.com/glenrobson/680ec73d44238f7b60f46c60e13dfb3f/raw/6927633ccb2f74f301680c9bb4c7fced3d15ee12/meme_working.json)
+<a href="https://projectmirador.org/embed/?iiif-content=https://gist.githubusercontent.com/glenrobson/680ec73d44238f7b60f46c60e13dfb3f/raw/6927633ccb2f74f301680c9bb4c7fced3d15ee12/meme_working.json">https://projectmirador.org/embed/?iiif-content=https://gist.githubusercontent.com/glenrobson/680ec73d44238f7b60f46c60e13dfb3f/raw/6927633ccb2f74f301680c9bb4c7fced3d15ee12/meme_working.json</a>
