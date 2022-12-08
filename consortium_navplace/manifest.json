@@ -1,0 +1,2329 @@
+{
+"@context":[
+       "http://iiif.io/api/extension/navplace/context.json",
+       "http://iiif.io/api/presentation/3/context.json"
+    ],
+  "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Consoritum Members with navPlace from Wikidata"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "University of Tokyo"
+        ]
+      },
+      "height": 1785,
+      "width": 2500,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "139.76232",
+                "35.71339"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/1/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Yasuda%20Auditorium%20-%20Tokyo%20University%203.jpg",
+                "type": "Image",
+                "height": 1785,
+                "width": 2500,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Harvard University"
+        ]
+      },
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-71.116943888",
+                "42.374443888"
+              ]
+            }
+          }
+        ]
+      },
+      "items": []
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "University of Hong Kong"
+        ]
+      },
+      "height": 1200,
+      "width": 1600,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "114.137777777",
+                "22.284166666"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/3/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/3/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20University%20of%20Hong%20Kong.jpg",
+                "type": "Image",
+                "height": 1200,
+                "width": 1600,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "The Chinese University of Hong Kong"
+        ]
+      },
+      "height": 2000,
+      "width": 3008,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "114.206791666",
+                "22.419722222"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/4/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/4/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Chinese%20University%20of%20Hong%20Kong%20%E9%A6%99%E6%B8%AF%E4%B8%AD%E6%96%87%E5%A4%A7%E5%AD%B8.JPG",
+                "type": "Image",
+                "height": 2000,
+                "width": 3008,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/5",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "British Library"
+        ]
+      },
+      "height": 1839,
+      "width": 4419,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-0.126944",
+                "51.529444"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/5/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/5/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/British%20Library%20%2B%20St%20Pancras%207527-31hug.jpg",
+                "type": "Image",
+                "height": 1839,
+                "width": 4419,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/6",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "University of Oxford"
+        ]
+      },
+      "height": 5051,
+      "width": 15050,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-1.255",
+                "51.755"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/6/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/6/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/1%20oxford%20aerial%20panorama%202016.jpg",
+                "type": "Image",
+                "height": 5051,
+                "width": 15050,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/7",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "University of Cambridge"
+        ]
+      },
+      "height": 5000,
+      "width": 4759,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "0.113157269",
+                "52.205355979"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/7/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/7/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20John%27s%20College%20Second%20Court%2C%20Cambridge%2C%20UK%20-%20Diliff.jpg",
+                "type": "Image",
+                "height": 5000,
+                "width": 4759,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/8",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Stanford University"
+        ]
+      },
+      "height": 2700,
+      "width": 10800,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-122.1688576",
+                "37.4282293"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/8/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/8/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Stanford%20Oval%20May%202011%20panorama.jpg",
+                "type": "Image",
+                "height": 2700,
+                "width": 10800,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/9",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Massachusetts Institute of Technology"
+        ]
+      },
+      "height": 1704,
+      "width": 2272,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-71.091944444",
+                "42.359722222"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/9/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/9/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/MIT%20Main%20Apr09.JPG",
+                "type": "Image",
+                "height": 1704,
+                "width": 2272,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/10",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Yale University"
+        ]
+      },
+      "height": 480,
+      "width": 640,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-72.926666666",
+                "41.311111111"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/10/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/10/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Yale%20Law%20School%20in%20the%20Sterling%20Law%20Building.jpg",
+                "type": "Image",
+                "height": 480,
+                "width": 640,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/11",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Brown University"
+        ]
+      },
+      "height": 1200,
+      "width": 1600,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-71.40325",
+                "41.826167"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/11/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/11/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Manning%20Chapel.jpg",
+                "type": "Image",
+                "height": 1200,
+                "width": 1600,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/12",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Cornell University"
+        ]
+      },
+      "height": 563,
+      "width": 1000,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-76.483055555",
+                "42.447222222"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/12/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/12/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Cornell%2BUniversity.jpg",
+                "type": "Image",
+                "height": 563,
+                "width": 1000,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/13",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "University of Pennsylvania"
+        ]
+      },
+      "height": 541,
+      "width": 1024,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-75.193055555",
+                "39.953888888"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/13/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/13/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Penn%20campus%202.jpg",
+                "type": "Image",
+                "height": 541,
+                "width": 1024,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/14",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Bodleian Library"
+        ]
+      },
+      "height": 2736,
+      "width": 3648,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-1.255138888",
+                "51.753972222"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/14/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/14/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Oxford%20stad%202016%2006.JPG",
+                "type": "Image",
+                "height": 2736,
+                "width": 3648,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/15",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Smithsonian Institution"
+        ]
+      },
+      "items": []
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/16",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Leiden University"
+        ]
+      },
+      "height": 2736,
+      "width": 3648,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "4.485277777",
+                "52.156944444"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/16/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/16/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Leiden%20-%20Rapenburg%2073.jpg",
+                "type": "Image",
+                "height": 2736,
+                "width": 3648,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/17",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "University of Edinburgh"
+        ]
+      },
+      "height": 1365,
+      "width": 2048,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-3.187194444",
+                "55.947388888"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/17/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/17/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Old%20College%20Quad.jpg",
+                "type": "Image",
+                "height": 1365,
+                "width": 2048,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/18",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "University of California, Los Angeles"
+        ]
+      },
+      "height": 600,
+      "width": 800,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-118.444166666",
+                "34.072222222"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/18/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/18/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Royce%20Hall%2C%20University%20of%20California%2C%20Los%20Angeles%20%2823-09-2003%29.jpg",
+                "type": "Image",
+                "height": 600,
+                "width": 800,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/19",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "University of Notre Dame"
+        ]
+      },
+      "height": 2400,
+      "width": 7493,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-86.238888888",
+                "41.7"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/19/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/19/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20University%20of%20Notre%20Dame%20%22God%20Quad%22.JPG",
+                "type": "Image",
+                "height": 2400,
+                "width": 7493,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/20",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "University of Toronto"
+        ]
+      },
+      "height": 800,
+      "width": 1200,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-79.395746",
+                "43.662917"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/20/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/20/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Uoft%20universitycollege.jpg",
+                "type": "Image",
+                "height": 800,
+                "width": 1200,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/21",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "National Library of Israel"
+        ]
+      },
+      "height": 568,
+      "width": 900,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "35.196805555",
+                "31.776166666"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/21/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/21/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/NLI%20building2.jpg",
+                "type": "Image",
+                "height": 568,
+                "width": 900,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/22",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "OCLC, Inc."
+        ]
+      },
+      "items": []
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/23",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Biblioth\u00e8que nationale de France"
+        ]
+      },
+      "height": 4735,
+      "width": 4862,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "2.375833333",
+                "48.833611111"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/23/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/23/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Biblioth%C3%A8que%20nationale%20de%20France%20%28site%20Richelieu%29%2C%20Paris%20-%20Salle%20Ovale.jpg",
+                "type": "Image",
+                "height": 4735,
+                "width": 4862,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/24",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Johns Hopkins University"
+        ]
+      },
+      "height": 2700,
+      "width": 3601,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-76.620555555",
+                "39.328888888"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/24/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/24/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Johns%20Hopkins%27%20Historic%20Dome%20-%20panoramio.jpg",
+                "type": "Image",
+                "height": 2700,
+                "width": 3601,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/25",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Vatican Library"
+        ]
+      },
+      "height": 2407,
+      "width": 2024,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "12.454444444",
+                "41.904722222"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/25/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/25/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Melozzo%20da%20Forl%C3%AC%20001.jpg",
+                "type": "Image",
+                "height": 2407,
+                "width": 2024,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/26",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "National Gallery of Art"
+        ]
+      },
+      "height": 1923,
+      "width": 3343,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-77.02",
+                "38.891388888"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/26/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/26/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/National%20Gallery%20of%20Art%20-%20West%20Building.JPG",
+                "type": "Image",
+                "height": 1923,
+                "width": 3343,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/27",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "University of Michigan"
+        ]
+      },
+      "height": 2848,
+      "width": 4288,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-83.738055555",
+                "42.276944444"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/27/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/27/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/AngellHall2010.JPG",
+                "type": "Image",
+                "height": 2848,
+                "width": 4288,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/28",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Bavarian State Library"
+        ]
+      },
+      "height": 778,
+      "width": 1037,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "11.580606099",
+                "48.147386238"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/28/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/28/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bayerische%20Staatsbibliothek%20-%20M%C3%BCnchen%20-%20Westansicht.jpg",
+                "type": "Image",
+                "height": 778,
+                "width": 1037,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/29",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "\u00c9cole polytechnique f\u00e9d\u00e9rale de Lausanne"
+        ]
+      },
+      "height": 1365,
+      "width": 2048,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "6.565555555",
+                "46.520277777"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/29/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/29/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/EPFL%20campus%202017.jpg",
+                "type": "Image",
+                "height": 1365,
+                "width": 2048,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/30",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Ohio State University"
+        ]
+      },
+      "height": 3054,
+      "width": 2291,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-83.0125",
+                "40.0"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/30/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/30/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/University%20Hall%20OSU%20March.JPG",
+                "type": "Image",
+                "height": 3054,
+                "width": 2291,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/31",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Wellcome Trust"
+        ]
+      },
+      "items": []
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/32",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Kyoto University"
+        ]
+      },
+      "height": 375,
+      "width": 500,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "135.780842",
+                "35.026212"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/32/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/32/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyoto%20University.jpg",
+                "type": "Image",
+                "height": 375,
+                "width": 500,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/33",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "University of Basel"
+        ]
+      },
+      "items": []
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/34",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "G\u00f6ttingen State and University Library"
+        ]
+      },
+      "height": 2136,
+      "width": 2848,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "9.93639",
+                "51.5397"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/34/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/34/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Goe.Uni.SUB.detail.03.JPG",
+                "type": "Image",
+                "height": 2136,
+                "width": 2848,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/34"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/35",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "University of Oklahoma"
+        ]
+      },
+      "height": 748,
+      "width": 1126,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-97.445833333",
+                "35.208611111"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/35/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/35/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/HolmbergHall2.jpg",
+                "type": "Image",
+                "height": 748,
+                "width": 1126,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/36",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "National Library of Wales"
+        ]
+      },
+      "height": 530,
+      "width": 800,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-4.068469",
+                "52.414384"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/36/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/36/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/National%20Library%20of%20Wales.jpg",
+                "type": "Image",
+                "height": 530,
+                "width": 800,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/36"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/37",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Folger Shakespeare Library"
+        ]
+      },
+      "height": 2448,
+      "width": 3264,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-77.003172",
+                "38.889361"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/37/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/37/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Folger%20Shakespeare%20Library%20DC.JPG",
+                "type": "Image",
+                "height": 2448,
+                "width": 3264,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/38",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "National Library of Poland"
+        ]
+      },
+      "height": 3754,
+      "width": 7143,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "21.00333333",
+                "52.21388889"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/38/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/38/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Biblioteka%20Narodowa%20w%20Warszawie%202017.jpg",
+                "type": "Image",
+                "height": 3754,
+                "width": 7143,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/38"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/39",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "National Library of Norway"
+        ]
+      },
+      "height": 2128,
+      "width": 3000,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "10.717557",
+                "59.914044"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/39/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/39/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/National%20Library%20of%20Norway%20%284453612421%29.jpg",
+                "type": "Image",
+                "height": 2128,
+                "width": 3000,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/39"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/40",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "North Carolina State University"
+        ]
+      },
+      "height": 3264,
+      "width": 2448,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-78.670555555",
+                "35.787222222"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/40/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/40/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/North%20Carolina%20State%20Bell%20Tower.jpg",
+                "type": "Image",
+                "height": 3264,
+                "width": 2448,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/41",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Kansai University"
+        ]
+      },
+      "height": 1318,
+      "width": 2079,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "135.510038888",
+                "34.773952777"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/41/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/41/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/KansaiUV1.JPG",
+                "type": "Image",
+                "height": 1318,
+                "width": 2079,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/41"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/42",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "University of Westminster"
+        ]
+      },
+      "height": 2497,
+      "width": 4075,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-0.143055555",
+                "51.516944444"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/42/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/42/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Westminster.jpg",
+                "type": "Image",
+                "height": 2497,
+                "width": 4075,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/43",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "University of Westminster"
+        ]
+      },
+      "height": 480,
+      "width": 640,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-0.143055555",
+                "51.516944444"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/43/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/43/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Westminster%2C%20Harrow%20Campus%20-%20geograph.org.uk%20-%2098048.jpg",
+                "type": "Image",
+                "height": 480,
+                "width": 640,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/44",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "National Library of Scotland"
+        ]
+      },
+      "height": 3024,
+      "width": 4032,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-3.19173",
+                "55.948696"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/44/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/44/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/National%20Library%20of%20Scotland%202018-08-21%20by%20Marcok.jpg",
+                "type": "Image",
+                "height": 3024,
+                "width": 4032,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/44"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/45",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "J. Paul Getty Trust"
+        ]
+      },
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-118.473763055",
+                "34.07824"
+              ]
+            }
+          }
+        ]
+      },
+      "items": []
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/46",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Princeton University Library"
+        ]
+      },
+      "height": 2922,
+      "width": 1997,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-74.657367",
+                "40.349496"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/46/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/46/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Firestone%20Library%20Princeton%20front.jpg",
+                "type": "Image",
+                "height": 2922,
+                "width": 1997,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/46"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/47",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "ARTstor"
+        ]
+      },
+      "items": []
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/48",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Yale Center for British Art"
+        ]
+      },
+      "height": 1200,
+      "width": 1600,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-72.930906",
+                "41.307908"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/48/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/48/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Yale%20Center%20for%20British%20Art.jpg",
+                "type": "Image",
+                "height": 1200,
+                "width": 1600,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/48"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/49",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Yale Center for British Art"
+        ]
+      },
+      "height": 1200,
+      "width": 1600,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-72.9306",
+                "41.3079"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/49/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/49/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/Yale%20Center%20for%20British%20Art.jpg",
+                "type": "Image",
+                "height": 1200,
+                "width": 1600,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/49"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/50",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Indiana University"
+        ]
+      },
+      "height": 768,
+      "width": 1024,
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-86.5",
+                "39.166666666"
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/50/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/50/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://commons.wikimedia.org/wiki/Special:FilePath/SampleGates%20IUBloomington.jpg",
+                "type": "Image",
+                "height": 768,
+                "width": 1024,
+                "format": "image/jpg"
+              },
+              "target": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/51",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Pennsylvania State University Libraries"
+        ]
+      },
+      "navPlace": {
+        "id": "http://example.com/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "http://example.com/feature/1",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "-77.8661",
+                "40.7982"
+              ]
+            }
+          }
+        ]
+      },
+      "items": []
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/52",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "New York University Libraries"
+        ]
+      },
+      "items": []
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/53",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Europeana Foundation"
+        ]
+      },
+      "items": []
+    },
+    {
+      "id": "https://glenrobson.github.io/iiif_stuff/consortium_navplace/canvas/54",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Swiss National Data and Service Center for the Humanities"
+        ]
+      },
+      "items": []
+    }
+  ]
+}
