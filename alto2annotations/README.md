@@ -27,3 +27,5 @@ To run this from the command line you can run:
 ```
 xsltproc --stringparam annoURI "http://localhost:8887/altoAnnotations.json" --stringparam xRatio 1 --stringparam yRatio 1  --stringparam canvasURI "http://07ae9a4f-5e65-4ecd-9796-7f682e7e0b37" annotationListNoArt.xsl /Users/gmr/Downloads/CAVA_TS_1371_5097_0008_002_alto.xml > altoAnnotations.json
 ```
+ * [annotationListNoArt.xsl - Open Annotations IIIF v2](annotationListNoArt.xsl)
+ * [alto2annosv3.xsl - Web Annotations IIIF v3](alto2annosv3.xsl)
