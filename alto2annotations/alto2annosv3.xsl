@@ -25,7 +25,7 @@
 
     <xsl:template match="/">
         {
-            "@context":"http://iiif.io/api/presentation/2/context.json",
+            "@context":"http://iiif.io/api/presentation/3/context.json",
             "id":"<xsl:value-of select="$annoURI"/>",
             "type":"AnnotationPage",
             "items":[
