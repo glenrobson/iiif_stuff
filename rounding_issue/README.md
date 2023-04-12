@@ -2,7 +2,7 @@
 
 Working on the following ticket to do with rounding issues:
 
-[](https://github.com/openseadragon/openseadragon/issues/2321)
+[2321: When loading some IIIF tilesets, incorrect URL's are being fetched for certain tiles](https://github.com/openseadragon/openseadragon/issues/2321)
 
 OSD examples:
 
