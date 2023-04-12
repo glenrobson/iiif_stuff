@@ -23,7 +23,7 @@
   } ],
   "profile" : "http://iiif.io/api/image/2/level0.json",
   "width" : 3073,
-  "@id" : "http://127.0.0.1:5500/odd",
+  "@id" : "https://glenrobson.github.io/iiif_stuff/rounding_issue/odd",
   "@context" : "http://iiif.io/api/image/2/context.json",
   "height" : 3073
 }

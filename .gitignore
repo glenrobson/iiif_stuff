@@ -1,2 +1,4 @@
 *.swp
 .DS_Store
+europeana_api/data
+zooniverse/dates/*.json

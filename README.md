@@ -12,3 +12,4 @@ IIIF Examples and useful code
  * [Zooniverse Annotations](zooniverse/) - Zooniverse annotations
  * [Meme Challenge](meme_challenge/) - A twitter Meme Challenge
  * [Cardiff Alma Testing](alma_cardiff/) - Testing Cardiff Alma Digital Instance
+ * [OSD Rounding error](rounding_issue/) - Testing OSD rounding issue
