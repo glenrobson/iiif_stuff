@@ -1,0 +1,13 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 16, 8, 4, 2, 1 ],
+    "width" : 256,
+    "height" : 256
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3073,
+  "@id" : "https://glenrobson.github.io/iiif_stuff/rounding_issue/odd",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 3073
+}
