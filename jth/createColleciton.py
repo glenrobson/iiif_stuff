@@ -8,7 +8,7 @@ collection = Collection(id="https://glenrobson.github.io/iiif-stuff/jth/collecti
 with open(sys.argv[1]) as lines:
     for line in lines:
 
-        manifest = ManifestRef(id="https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+        manifest = ManifestRef(id=f"https://damsssl.llgc.org.uk/iiif/2.0/{line.rstrip()}/manifest.json",
                            type="Manifest")
         collection.add_item(manifest)                   
 

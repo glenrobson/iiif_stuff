@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://glenrobson.github.io/iiif_stuff/jth/collection.json",
+    "id": "https://glenrobson.github.io/iiif-stuff/jth/collection.json",
     "type": "Collection",
     "label": {
         "none": [
@@ -9,1003 +9,1003 @@
     },
     "items": [
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123257/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123258/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123259/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123261/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123263/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123264/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123265/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123266/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123267/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123268/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123269/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123271/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123272/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123273/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123274/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123275/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123276/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123277/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123278/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123279/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123280/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123281/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123282/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123283/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123284/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123285/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123286/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123287/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123288/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123289/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123290/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123291/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123292/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123293/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123294/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123295/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123296/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123297/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123298/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123299/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123300/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123301/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123302/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123303/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123304/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123305/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123306/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123307/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123308/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123309/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123310/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123311/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123312/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123313/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123314/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123316/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123317/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123318/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123320/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123321/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123323/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123324/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123325/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123326/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123327/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123328/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123330/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123331/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123333/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123335/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123336/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123337/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123338/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123350/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123351/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123352/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123355/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123356/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123358/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123339/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123340/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123341/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123342/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123344/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123345/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123348/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123359/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123360/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123361/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123363/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123364/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123365/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123366/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123367/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123379/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123380/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123382/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123385/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123386/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123387/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123388/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123390/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123394/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123395/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123396/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123397/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123398/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123400/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123402/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123403/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123404/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123405/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123406/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123407/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123409/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123410/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123411/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123412/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123413/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123414/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123415/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123416/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123417/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123418/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123424/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123426/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123427/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123428/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123439/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123441/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123442/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123443/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123444/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123446/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123449/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123450/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123451/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123452/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123453/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123458/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123459/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123460/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123462/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123466/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123467/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123468/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123469/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123471/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123473/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123475/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123476/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123477/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123478/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123479/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123480/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123481/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123482/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123483/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123484/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123485/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123486/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123487/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123489/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123490/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123491/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123492/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123493/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123494/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123495/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123496/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123500/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123502/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123503/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123504/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123505/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123506/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123509/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123511/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123512/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123513/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123514/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123515/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123516/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123517/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123518/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123520/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123521/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123522/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123523/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123524/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123525/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123526/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123527/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123528/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123530/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123531/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123532/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123533/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123534/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123535/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123536/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123537/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123538/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123539/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123540/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123543/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123544/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123545/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123547/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123548/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123549/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123553/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123554/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123556/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123557/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123558/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123559/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123560/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123561/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123562/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123563/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123564/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123565/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123566/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123567/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123569/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123570/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123571/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123572/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123573/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123574/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123575/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123576/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123578/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123579/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123580/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123581/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123582/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123583/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123584/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123585/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123586/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123587/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123588/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123589/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123590/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123591/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123592/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123593/manifest.json",
             "type": "Manifest"
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/1123594/manifest.json",
             "type": "Manifest"
         }
     ]
