@@ -1,0 +1,1012 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://glenrobson.github.io/iiif-stuff/jth/collection.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "NLW John Thomas Collection"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        },
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0230-navdate/navdate_map_2-manifest.json",
+            "type": "Manifest"
+        }
+    ]
+}
