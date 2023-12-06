@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://glenrobson.github.io/iiif-stuff/jth/collection.json",
+    "id": "https://glenrobson.github.io/iiif_stuff/jth/collection.json",
     "type": "Collection",
     "label": {
         "none": [
