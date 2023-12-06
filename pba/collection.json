@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://damsssl.llgc.org.uk/iiif/collection/pba.json",
+    "@id": "https://glenrobson.github.io/iiif_stuff/pba/collection.json",
     "@type": "sc:Collection",
     "label": "PB Abery Photographic Collection",
     "attribution": "Llyfrgell Genedlaethol Cymru \u2013 The National Library of Wales",
