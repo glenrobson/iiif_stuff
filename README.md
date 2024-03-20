@@ -13,3 +13,4 @@ IIIF Examples and useful code
  * [Meme Challenge](meme_challenge/) - A twitter Meme Challenge
  * [Cardiff Alma Testing](alma_cardiff/) - Testing Cardiff Alma Digital Instance
  * [OSD Rounding error](rounding_issue/) - Testing OSD rounding issue
+ * [viewingHint](viewingHint/) - Looking at viewingHint support with viewers
