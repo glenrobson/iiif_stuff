@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://training.iiif.io/nlw-workshop/av-manifest.json",
+    "id": "https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json",
     "type": "Manifest",
     "label": {
         "en": [
