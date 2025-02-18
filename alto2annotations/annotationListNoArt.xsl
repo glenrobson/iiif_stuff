@@ -39,6 +39,7 @@
                         "motivation":"sc:painting",
                         "resource":
                         {
+                            "@id": "<xsl:value-of select="$annoURI"/>-<xsl:value-of select="position()"/>",
                             "@type":"cnt:ContentAsText",
                             "format":"text/plain",
                             <xsl:variable name="text">
