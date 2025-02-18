@@ -1,0 +1,236 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://training.iiif.io/nlw-workshop/av-manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Interview with Mike England and Ian Rush"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "en": [
+                    "Broadcast at"
+                ],
+                "cy": [
+                    "Darlledwyd ar"
+                ]
+            },
+            "value": {
+                "en": [
+                    "21 November 1982 00:11"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Language"
+                ],
+                "cy": [
+                    "Iaith"
+                ]
+            },
+            "value": {
+                "en": [
+                    "English"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Aspect Ratio"
+                ],
+                "cy": [
+                    "Cymhareb agwedd"
+                ]
+            },
+            "value": {
+                "en": [
+                    "16:9"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "NLW filename"
+                ],
+                "cy": [
+                    "Enw ffeil LlGC"
+                ]
+            },
+            "value": {
+                "en": [
+                    "s3://BBC_WALES-NLW_VERSION/aoh/aa/c000/k00/aohaa00000132.mp4"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Original filename"
+                ],
+                "cy": [
+                    "Enw ffeil gwreiddiol"
+                ]
+            },
+            "value": {
+                "en": [
+                    "s3://BBC_WALES-NLW_VERSION/aoh/aa/c000/k00/aohaa00000132.mp4"
+                ]
+            }
+        }
+    ],
+    "navDate": "1982-11-21T00:00:00Z",
+    "summary": {
+        "en": [
+            "Footage of Wales training - interviews with manager Mike England + Ian Rush + Gordon Davies. 21/11/1982 Sports Line Up BBC Cymru Wales. It is not possible to make copies of this material without permission from the copyright holders. Sports Line Up"
+        ],
+        "cy": [
+            "Ffilm o Cymru’n hyfforddi - cyfweliadau gyda'r rheolwr Mike England + Ian Rush + Gordon Davies. 21/11/1982 Sports Line Up BBC Cymru Wales. Nid oes modd gwneud copïau o'r deunydd hwn heb ganiatâd deiliaid yr hawlfraint. "
+        ]
+    },
+    "rights": "http://rightsstatements.org/vocab/InC/1.0/",
+    "requiredStatement": {
+        "value": {
+            "en": [
+                "It is not possible to make copies of this material without permission from the copyright holders."
+            ],
+            "cy": [
+                "Nid oes modd gwneud copïau o'r deunydd hwn heb ganiatâd deiliaid yr hawlfraint."
+            ]
+        },
+        "label": {
+            "cy": [
+                "Hawliau"
+            ],
+            "en": [
+                "Rights"
+            ]
+        }
+    },
+    "homepage": [
+        {
+            "id": "https://clip.library.wales/detail/318292?published=published_public&terms=rush&sorting=DESC&results=12&viewmode=grid",
+            "type": "Text",
+            "label": {
+                "en": [
+                    "Clip page for this item"
+                ]
+            },
+            "format": "text/html"
+        }
+    ],
+    "provider": [
+        {
+            "id": "https://www.library.wales/",
+            "type": "Agent",
+            "label": {
+                "en": [
+                    "National Library of Wales"
+                ]
+            },
+            "homepage": [
+                {
+                    "id": "https://www.library.wales/",
+                    "type": "Text",
+                    "label": {
+                        "en": [
+                            "National Library of Wales"
+                        ]
+                    },
+                    "format": "text/html"
+                }
+            ],
+            "logo": [
+                {
+                    "id": "https://damsssl.llgc.org.uk/iiif/2.0/image/logo/full/full/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/png",
+                    "height": 964,
+                    "width": 906
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "id": "https://example.org/2bu7yvt966j-m79olh9c/canvas/dwgb39oi4yb-m79olwx0",
+            "type": "Canvas",
+            "height": 1080,
+            "width": 1920,
+            "duration": 449.152,
+            "label": {
+                "en": [
+                    "aohaa00000132"
+                ]
+            },
+            "items": [
+                {
+                    "id": "https://example.org/2bu7yvt966j-m79olh9c/canvas/dwgb39oi4yb-m79olwx0/annotation-page/1spwspxdzuai-m79olwx0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://example.org/2bu7yvt966j-m79olh9c/annotation/kkhbj3q1a9k-m79olwwz",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://example.org/2bu7yvt966j-m79olh9c/canvas/dwgb39oi4yb-m79olwx0",
+                            "body": {
+                                "id": "https://iiif.gdmrdigital.com/nlw/2025/training/aohaa00000132.mp4",
+                                "type": "Video",
+                                "format": "video/mp4",
+                                "height": 1080,
+                                "width": 1920,
+                                "duration": 449.152
+                            }
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.io/api/cookbook/recipe/0074-multiple-language-captions/manifest.json/anno/page/1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://iiif.io/api/cookbook/recipe/0074-multiple-language-captions/manifest.json/subtitles_captions-files-vtt",
+                            "type": "Annotation",
+                            "motivation": "supplementing",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.gdmrdigital.com/nlw/2025/training/aohaa00000132_EN.vtt",
+                                        "type": "Text",
+                                        "format": "text/vtt",
+                                        "label": {
+                                            "en": [
+                                                "Captions in WebVTT format"
+                                            ]
+                                        },
+                                        "language": "en"
+                                    },
+                                    {
+                                        "id": "https://iiif.gdmrdigital.com/nlw/2025/training/aohaa00000132_CY.vtt",
+                                        "type": "Text",
+                                        "format": "text/vtt",
+                                        "label": {
+                                            "it": [
+                                                "Welsh WebVTT"
+                                            ]
+                                        },
+                                        "language": "cy"
+                                    }
+                                ]
+                            },
+                            "target": "https://example.org/2bu7yvt966j-m79olh9c/canvas/dwgb39oi4yb-m79olwx0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
