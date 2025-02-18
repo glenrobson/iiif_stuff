@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://glenrobson.github.io/iiif_stuff/nlw-workshop/aohaa00000133.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Interview with John Neal (Wrexham) and John Charles (Merthyr Tydfil)"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://example.org/ouzyiydcnqb-m7b109eo/canvas/nhky5hmxdf-m7b10gob",
+            "type": "Canvas",
+            "height": 1080,
+            "width": 1920,
+            "duration": 187.029333,
+            "label": {
+                "en": [
+                    "aohaa00000133"
+                ]
+            },
+            "items": [
+                {
+                    "id": "https://example.org/ouzyiydcnqb-m7b109eo/canvas/nhky5hmxdf-m7b10gob/annotation-page/cyez1spv7c-m7b10gob",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://example.org/ouzyiydcnqb-m7b109eo/annotation/b547bhwtidt-m7b10goa",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://example.org/ouzyiydcnqb-m7b109eo/canvas/nhky5hmxdf-m7b10gob",
+                            "body": {
+                                "id": "https://iiif.gdmrdigital.com/nlw/2025/training/aohaa00000133.mp4",
+                                "type": "Video",
+                                "format": "video/mp4",
+                                "height": 1080,
+                                "width": 1920,
+                                "duration": 187.029333
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

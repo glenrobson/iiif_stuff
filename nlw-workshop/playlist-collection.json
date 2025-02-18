@@ -1,0 +1,30 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://glenrobson.github.io/iiif_stuff/nlw-workshop/playlist-collection.json",
+    "type": "Collection",
+    "label": {
+      "en": [
+        "Playlist of two recordings"
+      ]
+    },
+    "items": [
+      {
+        "id": "https://glenrobson.github.io/iiif_stuff/nlw-workshop/aohaa00000133.json",
+        "type": "Manifest",
+        "label": {
+          "en": [
+            "Interview with John Neal (Wrexham) and John Charles (Merthyr Tydfil)"
+          ]
+        }
+      },
+      {
+        "id": "https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json",
+        "type": "Manifest",
+        "label": {
+          "en": [
+            "Interview with Mike England and Ian Rush"
+          ]
+        }
+      }
+    ]
+  }
