@@ -208,7 +208,7 @@
                                         "format": "text/vtt",
                                         "label": {
                                             "en": [
-                                                "Captions in WebVTT format"
+                                                "English"
                                             ]
                                         },
                                         "language": "en"
@@ -218,8 +218,8 @@
                                         "type": "Text",
                                         "format": "text/vtt",
                                         "label": {
-                                            "it": [
-                                                "Welsh WebVTT"
+                                            "cy": [
+                                                "Cymraeg"
                                             ]
                                         },
                                         "language": "cy"
@@ -227,6 +227,79 @@
                                 ]
                             },
                             "target": "https://example.org/2bu7yvt966j-m79olh9c/canvas/dwgb39oi4yb-m79olwx0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "structures": [
+        {
+            "type": "Range",
+            "id": "https://example.org/2bu7yvt966j-m79olh9c/range/1",
+            "label": {
+                "en": [
+                    "Interviews"
+                ]
+            },
+            "items": [
+                {
+                    "type": "Range",
+                    "id": "https://example.org/2bu7yvt966j-m79olh9c/range/2",
+                    "label": {
+                        "en": [
+                            "Mike England"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "type": "Canvas",
+                            "id": "https://example.org/2bu7yvt966j-m79olh9c/canvas/dwgb39oi4yb-m79olwx0#t=31,151"
+                        }
+                    ]
+                },
+                {
+                    "type": "Range",
+                    "id": "https://example.org/2bu7yvt966j-m79olh9c/range/3",
+                    "label": {
+                        "en": [
+                            "Ian Rush"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "type": "Canvas",
+                            "id": "https://example.org/2bu7yvt966j-m79olh9c/canvas/dwgb39oi4yb-m79olwx0#t=151,264"
+                        }
+                    ]
+                },
+                {
+                    "type": "Range",
+                    "id": "https://example.org/2bu7yvt966j-m79olh9c/range/4",
+                    "label": {
+                        "en": [
+                            "Gordan Davies"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "type": "Canvas",
+                            "id": "https://example.org/2bu7yvt966j-m79olh9c/canvas/dwgb39oi4yb-m79olwx0#t=265,391"
+                        }
+                    ]
+                },
+                {
+                    "type": "Range",
+                    "id": "https://example.org/2bu7yvt966j-m79olh9c/range/5",
+                    "label": {
+                        "en": [
+                            "Mike England"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "type": "Canvas",
+                            "id": "https://example.org/2bu7yvt966j-m79olh9c/canvas/dwgb39oi4yb-m79olwx0#t=391,444"
                         }
                     ]
                 }
