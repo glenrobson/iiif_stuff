@@ -1,0 +1,62 @@
+{
+    "@context": "http://iiif.io/api/image/2/context.json",
+    "protocol": "http://iiif.io/api/image",
+    "width": 2457,
+    "height": 3188,
+    "sizes": [
+        {
+            "width": 153,
+            "height": 199
+        },
+        {
+            "width": 307,
+            "height": 398
+        },
+        {
+            "width": 614,
+            "height": 797
+        }
+    ],
+    "tiles": [
+        {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+                1,
+                2,
+                4,
+                8,
+                16
+            ]
+        }
+    ],
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/4689008",
+    "profile": [
+        "http://iiif.io/api/image/2/level1.json",
+        {
+            "formats": [
+                "jpg",
+                "png",
+                "webp"
+            ],
+            "qualities": [
+                "native",
+                "color",
+                "gray",
+                "bitonal"
+            ],
+            "supports": [
+                "regionByPct",
+                "regionSquare",
+                "sizeByForcedWh",
+                "sizeByWh",
+                "sizeAboveFull",
+                "sizeUpscaling",
+                "rotationBy90s",
+                "mirroring"
+            ],
+            "maxWidth": 1200,
+            "maxHeight": 1200
+        }
+    ]
+}

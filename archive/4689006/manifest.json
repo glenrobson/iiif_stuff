@@ -1,0 +1,465 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:Manifest",
+    "@id": "https://glenrobson.github.io/iiif_stuff/archive/4689006/manifest.json",
+    "label": "A most strange and true report of a monsterous fish, who appeared in the forme of a woman, from her waste upwards",
+    "metadata": [
+        {
+            "label": [
+                {
+                    "@value": "Title",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Teitl",
+                    "@language": "cy-GB"
+                }
+            ],
+            "value": "A most strange and true report of a monsterous fish, who appeared in the forme of a woman, from her waste upwards"
+        },
+        {
+            "label": [
+                {
+                    "@value": "Alternate Title",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Teitl Arall",
+                    "@language": "cy-GB"
+                }
+            ],
+            "value": "Most strange and true report of a monsterous fish, that appeared in the forme of a woman, from her wast upwards"
+        },
+        {
+            "label": [
+                {
+                    "@value": "Author",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Awdur",
+                    "@language": "cy-GB"
+                }
+            ],
+            "value": "P. G."
+        },
+        {
+            "label": [
+                {
+                    "@value": "Date",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Dyddiad",
+                    "@language": "cy-GB"
+                }
+            ],
+            "value": "[1604]"
+        },
+        {
+            "label": [
+                {
+                    "@value": "Physical description",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Disgrifiad ffisegol",
+                    "@language": "cy-GB"
+                }
+            ],
+            "value": "[8] p. : ill. ; 21 cm. (4\u00b0)"
+        },
+        {
+            "label": [
+                {
+                    "@value": "Permalink",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Dolen barhaol",
+                    "@language": "cy-GB"
+                }
+            ],
+            "value": "<a href=\"http://hdl.handle.net/10107/4689002\">http://hdl.handle.net/10107/4689002</a>"
+        },
+        {
+            "label": [
+                {
+                    "@value": "Repository",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Ystorfa",
+                    "@language": "cy-GB"
+                }
+            ],
+            "value": [
+                {
+                    "@value": "This content has been digitised by The National Library of Wales",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Digidwyd y cynnwys hwn gan Lyfrgell Genedlaethol Cymru",
+                    "@language": "cy-GB"
+                }
+            ]
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "logo": {
+        "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/logo/full/400,/0/default.jpg",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/logo",
+            "profile": "http://iiif.io/api/image/2/level1.json"
+        }
+    },
+    "attribution": "Llyfrgell Genedlaethol Cymru \u2013 The National Library of Wales",
+    "sequences": [
+        {
+            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/sequence/Physical.json",
+            "@type": "sc:Sequence",
+            "label": "Current Page Order",
+            "viewingDirection": "left-to-right",
+            "viewingHint": "paged",
+            "canvases": [
+                {
+                    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689003.json",
+                    "@type": "sc:Canvas",
+                    "label": "1 r.",
+                    "height": 3200,
+                    "width": 2424,
+                    "images": [
+                        {
+                            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/annotation/4689003.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/res/4689003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://glenrobson.github.io/iiif_stuff/archive/4689006/4689003",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1",
+                                    "height": 3200,
+                                    "width": 2424,
+                                    "tiles": [
+                                        {
+                                            "width": 256,
+                                            "height": 256,
+                                            "scaleFactors": [
+                                                1,
+                                                2,
+                                                4,
+                                                8,
+                                                16
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "height": 3200,
+                                "width": 2424
+                            },
+                            "on": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689003.json"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689004.json",
+                    "@type": "sc:Canvas",
+                    "label": "1 v.",
+                    "height": 3200,
+                    "width": 2457,
+                    "images": [
+                        {
+                            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/annotation/4689004.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/res/4689004.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://glenrobson.github.io/iiif_stuff/archive/4689006/4689004",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1",
+                                    "height": 3200,
+                                    "width": 2457,
+                                    "tiles": [
+                                        {
+                                            "width": 256,
+                                            "height": 256,
+                                            "scaleFactors": [
+                                                1,
+                                                2,
+                                                4,
+                                                8,
+                                                16
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "height": 3200,
+                                "width": 2457
+                            },
+                            "on": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689004.json"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689005.json",
+                    "@type": "sc:Canvas",
+                    "label": "2 r.",
+                    "height": 3188,
+                    "width": 2436,
+                    "images": [
+                        {
+                            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/annotation/4689005.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/res/4689005.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://glenrobson.github.io/iiif_stuff/archive/4689006/4689005",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1",
+                                    "height": 3188,
+                                    "width": 2436,
+                                    "tiles": [
+                                        {
+                                            "width": 256,
+                                            "height": 256,
+                                            "scaleFactors": [
+                                                1,
+                                                2,
+                                                4,
+                                                8,
+                                                16
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "height": 3188,
+                                "width": 2436
+                            },
+                            "on": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689005.json"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689006.json",
+                    "@type": "sc:Canvas",
+                    "label": "2 v.",
+                    "height": 3188,
+                    "width": 2445,
+                    "images": [
+                        {
+                            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/annotation/4689006.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/res/4689006.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://glenrobson.github.io/iiif_stuff/archive/4689006/4689006",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1",
+                                    "height": 3188,
+                                    "width": 2445,
+                                    "tiles": [
+                                        {
+                                            "width": 256,
+                                            "height": 256,
+                                            "scaleFactors": [
+                                                1,
+                                                2,
+                                                4,
+                                                8,
+                                                16
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "height": 3188,
+                                "width": 2445
+                            },
+                            "on": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689006.json"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689007.json",
+                    "@type": "sc:Canvas",
+                    "label": "3 r.",
+                    "height": 3200,
+                    "width": 2484,
+                    "images": [
+                        {
+                            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/annotation/4689007.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/res/4689007.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://glenrobson.github.io/iiif_stuff/archive/4689006/4689007",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1",
+                                    "height": 3200,
+                                    "width": 2484,
+                                    "tiles": [
+                                        {
+                                            "width": 256,
+                                            "height": 256,
+                                            "scaleFactors": [
+                                                1,
+                                                2,
+                                                4,
+                                                8,
+                                                16
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "height": 3200,
+                                "width": 2484
+                            },
+                            "on": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689007.json"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689008.json",
+                    "@type": "sc:Canvas",
+                    "label": "3 v.",
+                    "height": 3188,
+                    "width": 2457,
+                    "images": [
+                        {
+                            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/annotation/4689008.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/res/4689008.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://glenrobson.github.io/iiif_stuff/archive/4689006/4689008",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1",
+                                    "height": 3188,
+                                    "width": 2457,
+                                    "tiles": [
+                                        {
+                                            "width": 256,
+                                            "height": 256,
+                                            "scaleFactors": [
+                                                1,
+                                                2,
+                                                4,
+                                                8,
+                                                16
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "height": 3188,
+                                "width": 2457
+                            },
+                            "on": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689008.json"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689009.json",
+                    "@type": "sc:Canvas",
+                    "label": "4 r.",
+                    "height": 3236,
+                    "width": 2496,
+                    "images": [
+                        {
+                            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/annotation/4689009.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/res/4689009.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://glenrobson.github.io/iiif_stuff/archive/4689006/4689009",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1",
+                                    "height": 3236,
+                                    "width": 2496,
+                                    "tiles": [
+                                        {
+                                            "width": 256,
+                                            "height": 256,
+                                            "scaleFactors": [
+                                                1,
+                                                2,
+                                                4,
+                                                8,
+                                                16
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "height": 3236,
+                                "width": 2496
+                            },
+                            "on": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689009.json"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689010.json",
+                    "@type": "sc:Canvas",
+                    "label": "4 v.",
+                    "height": 3224,
+                    "width": 2457,
+                    "images": [
+                        {
+                            "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/annotation/4689010.json",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/res/4689010.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://glenrobson.github.io/iiif_stuff/archive/4689006/4689010",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/compliance.html#level1",
+                                    "height": 3224,
+                                    "width": 2457,
+                                    "tiles": [
+                                        {
+                                            "width": 256,
+                                            "height": 256,
+                                            "scaleFactors": [
+                                                1,
+                                                2,
+                                                4,
+                                                8,
+                                                16
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "height": 3224,
+                                "width": 2457
+                            },
+                            "on": "https://damsssl.llgc.org.uk/iiif/2.0/4689002/canvas/4689010.json"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "@context": "http://iiif.io/api/image/2/context.json",
+    "protocol": "http://iiif.io/api/image",
+    "width": 2496,
+    "height": 3236,
+    "sizes": [
+        {
+            "width": 156,
+            "height": 202
+        },
+        {
+            "width": 312,
+            "height": 404
+        },
+        {
+            "width": 624,
+            "height": 809
+        }
+    ],
+    "tiles": [
+        {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+                1,
+                2,
+                4,
+                8,
+                16
+            ]
+        }
+    ],
+    "@id": "https://glenrobson.github.io/iiif_stuff/archive/MonsterousFish/4689009",
+    "profile": [
+        "http://iiif.io/api/image/2/level1.json",
+        {
+            "formats": [
+                "jpg",
+                "png",
+                "webp"
+            ],
+            "qualities": [
+                "native",
+                "color",
+                "gray",
+                "bitonal"
+            ],
+            "supports": [
+                "regionByPct",
+                "regionSquare",
+                "sizeByForcedWh",
+                "sizeByWh",
+                "sizeAboveFull",
+                "sizeUpscaling",
+                "rotationBy90s",
+                "mirroring"
+            ],
+            "maxWidth": 1200,
+            "maxHeight": 1200
+        }
+    ]
+}
