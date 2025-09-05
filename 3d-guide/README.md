@@ -1,3 +1,13 @@
+{% capture img_css %}
+  width: 70%;
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 12px 28px rgba(0,0,0,.18), 0 2px 8px rgba(0,0,0,.12);
+  border-radius: 8px;
+{% endcapture %}
+
 # Create a basic 3D manifest 
 
 This short guide will give you step by step instructions for creating a basic 3D manifest using a 3D model from Sketchfab. For this example I am going to use the [3D IIIF logo](https://skfb.ly/6SWEH):
@@ -8,11 +18,11 @@ This short guide will give you step by step instructions for creating a basic 3D
 
 The first step is to download the 3d model as a glb file. Click the download 3d model link:
 
-![Click download 3d model](imgs/download.png)
+![Click download 3d model](imgs/download.png){: {{img-css}}}
 
 Select the smallest GLB file and click Download:
 
-![Select smallest GLB](imgs/select_glb.png)
+![Select smallest GLB](imgs/select_glb.png){: {{img-css}}}
 
 Now upload the file to Ronald's web space....
 
@@ -24,4 +34,6 @@ https://iiif.github.io/3d/manifests/1_basic_model_in_scene/README.html
 
 Download the model_orgin.json file by right clicking and selecting save link as:
 
-![Save manifest](imgs/save_manifest.png)
+![Save manifest](imgs/save_manifest.png){: {{img-css}}}
+
+Now Navigate 
