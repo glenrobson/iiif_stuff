@@ -71,7 +71,7 @@ Now we have the URL to the manifest we can supply this to a number of IIIF viewe
 
 <div class="row">
     <label for="text">Manifest URL:</label>
-    <input id="text" type="text" minlength="50" placeholder="e.g. https://api.npoint.io/8af5347d219a3cec6039" />
+    <input id="text" type="text" size="100" placeholder="e.g. https://api.npoint.io/8af5347d219a3cec6039" />
   </div>
 
   <div class="row" style="margin-top:.75rem;">
