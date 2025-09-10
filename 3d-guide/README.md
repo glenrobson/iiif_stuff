@@ -26,7 +26,21 @@ Select the smallest GLB file and click Download:
 
 ![Select smallest GLB](imgs/select_glb.png){: .img-style }
 
-Now upload the file to Ronald's web space....
+Now we have downloaded the Model we need to upload it to a space on the Web where the model is accessible. We have prepared some space on https://veholder.org so navigate to:
+
+[https://veholder.org/iiif3d/TFM](https://veholder.org/iiif3d/TFM)
+
+and login with the username and password which is written on the black board. Once you login you will see the following page. Click on the upload:
+
+![List of items uploaded](imgs/upload_items.png){: .img-style }
+
+Now drag and drop the glb file you downloaded from Sketchfab.
+
+![Upload glb file](imgs/upload_glb.png){: .img-style }
+
+Then click the back button on the page until you get to the list of items. You should see your item uploaded. Now right click on the link icon and copy the URL. Make a note of this as you will need it for the next step.
+
+![copy URL to your glb file](imgs/item_uploaded.png){: .img-style }
 
 ## Step 2: Create a basic Manifest
 
